@@ -1,0 +1,15 @@
+{
+  "00001": {
+    "products": [
+      {
+        "qty": 1,
+        "id": "dell_xps_1500",
+        "amount": 1035
+      }
+    ],
+    "id": "00001",
+    "delivery": "27 rue Chateaubriand | 75004 Paris | France",
+    "client_id": "johana_dupont",
+    "amount": 1035
+  }
+}
