@@ -186,7 +186,7 @@ Cp=(poff*np.exp(ap*100) -pfinal)/(poff-pfinal)
 # exponential, represented on 100 values, starting at poff= 0.015, finishing at pfinal = 0.1 and with a softening parameter ap.
 # The result is a range of 100 values with a descending exponential density.
 
-#range_p_exp = [ (0.1/(np.exp(a*100)-1))*(np.exp(a*x)-1) for x in range(101)]
+#range_p_exp = [Kp*(np.exp(ap*x)- Cp) for x in range(101)]
 
 at=0.03
 toff=450
