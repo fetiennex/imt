@@ -226,19 +226,20 @@ for k in range(len(data)):
         p_ber_y.append(data[k][p][1])
         p_fer_y.append(data[k][p][0])
 
-plt.plot(range_p, p_ber_y,"r+") #range_p_exp
+plt.plot(range_p[2:], p_ber_y[2:],"r+") #range_p_exp
 #plt.plot(range(len(data[0])), p_fer_y,"b")
 
-range_p_log = [np.log(y) for y in range_p] #range_p_exp
-lr = scipy.stats.linregress(range_p_log,p_ber_y)
+range_p_log = [np.log(x) for x in range_p[2:]] #range_p_exp
+values_log = [np.log(y) for y in p_ber_y[2:]]
+#plt.plot(range_p_log,values_log)
+lr = scipy.stats.linregress(range_p_log,values_log)
 
 print("correlation=",lr[2])
 y = []
-for x in range_p_log:
-    y.append(x*lr[0] + lr[1])
+for x in range_p[2:]:
+    y.append(np.exp(lr[1])*(float(x)**(float(lr[0]))))
 
-
-plt.plot(range_p,y,"b") #range_p_exp
+plt.plot(range_p[2:],y,"b") #range_p_exp
 
 plt.yscale("log")
 plt.show()
