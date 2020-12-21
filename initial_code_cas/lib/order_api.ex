@@ -60,9 +60,12 @@ defmodule ImtOrder.API do
     {:ok,bin,conn} = read_body(conn)
     order = Poison.decode!(bin)
 
-    case Supervisor.start_link([%{id: order["id"], start: {OrderTransactor, :start, [order["id"],order]}}],strategy: :one_for_one) do
-    #case OrderTransactor.start(order["id"], order) do
-      {:ok, _pid} -> conn |> send_resp(200,"") |> halt()
+    child = DynamicSupervisor.start_child(MyApp.DynamicSupervisor, %{id: order["id"], start: {OrderTransactor, :start, [order["id"],order]}})
+
+    case child do
+      {:ok, pid} ->
+        Logger.info(["[Create] ", inspect(Process.info(pid)[:registered_name]) ," created"])
+        conn |> send_resp(200,"") |> halt()
       err ->
         Logger.error("[Create] Error #{inspect err}")
         conn |> send_resp(500,"") |> halt()
@@ -78,7 +81,9 @@ defmodule ImtOrder.API do
 
     {:ok, pid} = OrderTransactor.start(orderid)
     case GenServer.call(pid, {:payment, %{"transaction_id"=> transaction_id}}, 20_000) do
-      {:ok, _} -> conn |> send_resp(200,"") |> halt()
+      {:ok, _} ->
+        Logger.info("[Payment] " <> orderid <> " is paid")
+        conn |> send_resp(200,"") |> halt()
       err ->
         Logger.error("[Payment] Error #{inspect err}")
         conn |> send_resp(500,"") |> halt()

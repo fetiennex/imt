@@ -181,8 +181,12 @@ pfinal=0.1
 Kp=(poff-pfinal)/(1-np.exp(ap*100))
 Cp=(poff*np.exp(ap*100) -pfinal)/(poff-pfinal)
 
-#range_p_exp = [ (0.1/(np.exp(a*100)-1))*(np.exp(a*x)-1) for x in range(101)]
-#range_p = [Kp*(np.exp(ap*x)- Cp) for x in range(101)]
+# Explanation : as small values of p are the ones were the galager result have the greatest standard error, \
+# we want a sampling of p with more resolution in the small values than in the bigs. Our solution is an \
+# exponential, represented on 100 values, starting at poff= 0.015, finishing at pfinal = 0.1 and with a softening parameter ap.
+# The result is a range of 100 values with a descending exponential density.
+
+#range_p_exp = [Kp*(np.exp(ap*x)- Cp) for x in range(101)]
 
 at=0.03
 toff=450
@@ -191,6 +195,12 @@ Kt=(tfinal-toff)/(1-np.exp(at*100))
 Ct=(tfinal*np.exp(at*100) -toff)/(tfinal-toff)
 
 range_t_exp = [Kt*(np.exp(at*(100-x))- Ct) for x in range(101)]
+
+# Explanation: for the same reason as before, we want a distribution of the number of tests per value of p that is\
+# high for low p values, and low for high p values. We therefore chose a descending exponential, represented on 100 values, starting at toff=450 tests,
+# ending at tfinal=50 tests, with a softening parameter at.
+# The result is a range of 100 values descending exponentially.
+
 #print(range_p_exp)
 #plt.plot(range(101),range_p_exp)
 #plt.show()
@@ -216,19 +226,20 @@ for k in range(len(data)):
         p_ber_y.append(data[k][p][1])
         p_fer_y.append(data[k][p][0])
 
-plt.plot(range_p, p_ber_y,"r+") #range_p_exp
+plt.plot(range_p[2:], p_ber_y[2:],"r+") #range_p_exp
 #plt.plot(range(len(data[0])), p_fer_y,"b")
 
-range_p_log = [np.log(y) for y in range_p] #range_p_exp
-lr = scipy.stats.linregress(range_p_log,p_ber_y)
+range_p_log = [np.log(x) for x in range_p[2:]] #range_p_exp
+values_log = [np.log(y) for y in p_ber_y[2:]]
+#plt.plot(range_p_log,values_log)
+lr = scipy.stats.linregress(range_p_log,values_log)
 
 print("correlation=",lr[2])
 y = []
-for x in range_p_log:
-    y.append(x*lr[0] + lr[1])
+for x in range_p[2:]:
+    y.append(np.exp(lr[1])*(float(x)**(float(lr[0]))))
 
-
-plt.plot(range_p,y,"b") #range_p_exp
+plt.plot(range_p[2:],y,"b") #range_p_exp
 
 plt.yscale("log")
 plt.show()
