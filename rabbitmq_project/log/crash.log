@@ -1,0 +1,2277 @@
+2020-12-21 18:33:45 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.308.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.CALC.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.File.Error',action => <<"read file">>,path => <<"products.json">>,reason => enoent},[{'Elixir.File','read!',1,[{file,"lib/file.ex"},{line,354}]},{'Elixir.CALC.Application',create_table,0,[{file,"lib/application.ex"},{line,25}]},{'Elixir.CALC.Application',start,2,[{file,"lib/application.ex"},{line,18}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.307.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.309.0>,normal}]
+    links: [<0.307.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 217
+  neighbours:
+2020-12-21 18:34:11 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.285.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.CALC.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.File.Error',action => <<"read file">>,path => <<"./products.json">>,reason => enoent},[{'Elixir.File','read!',1,[{file,"lib/file.ex"},{line,354}]},{'Elixir.CALC.Application',create_table,0,[{file,"lib/application.ex"},{line,25}]},{'Elixir.CALC.Application',start,2,[{file,"lib/application.ex"},{line,18}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.284.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.286.0>,normal}]
+    links: [<0.284.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 217
+  neighbours:
+2020-12-21 18:36:01 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.285.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.CALC.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.File.Error',action => <<"read file">>,path => <<"./products.json">>,reason => enoent},[{'Elixir.File','read!',1,[{file,"lib/file.ex"},{line,354}]},{'Elixir.CALC.Application',create_table,0,[{file,"lib/application.ex"},{line,26}]},{'Elixir.CALC.Application',start,2,[{file,"lib/application.ex"},{line,18}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.284.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.286.0>,normal}]
+    links: [<0.284.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 225
+  neighbours:
+2020-12-21 18:36:52 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.285.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.CALC.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.File.Error',action => <<"read file">>,path => <<"./products.json">>,reason => enoent},[{'Elixir.File','read!',1,[{file,"lib/file.ex"},{line,354}]},{'Elixir.CALC.Application',create_table,0,[{file,"lib/application.ex"},{line,27}]},{'Elixir.CALC.Application',start,2,[{file,"lib/application.ex"},{line,18}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.284.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.286.0>,normal}]
+    links: [<0.284.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 237
+  neighbours:
+2020-12-21 18:39:54 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.285.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.CALC.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.File.Error',action => <<"read file">>,path => <<"/home/etienne/rabbitmq_project/_build/dev/lib/calc/lib/products.json">>,reason => enoent},[{'Elixir.File','read!',1,[{file,"lib/file.ex"},{line,354}]},{'Elixir.CALC.Application',create_table,0,[{file,"lib/application.ex"},{line,27}]},{'Elixir.CALC.Application',start,2,[{file,"lib/application.ex"},{line,18}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.284.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.286.0>,normal}]
+    links: [<0.284.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 233
+  neighbours:
+2020-12-21 18:45:56 =ERROR REPORT====
+** Generic server banane_agent terminating 
+** Last message in was {add,10}
+** When Server state == #{amount => 10,key => <<"banane">>}
+** Reason for termination ==
+** {function_clause,[{'Elixir.CALC.Agent',handle_call,[{add,10},{<0.298.0>,#Ref<0.3563171291.904921091.196483>},#{amount => 10,key => <<"banane">>}],[{file,"lib/agent.ex"},{line,18}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+** Client <0.298.0> stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{erl_eval,do_apply,6,[{file,"erl_eval.erl"},{line,680}]},{elixir,recur_eval,3,[{file,"src/elixir.erl"},{line,280}]},{elixir,eval_forms,3,[{file,"src/elixir.erl"},{line,265}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,261}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,242}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,220}]}]
+2020-12-21 18:45:56 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.293.0>
+    registered_name: []
+    exception error: {function_clause,[{'Elixir.CALC.Agent',handle_call,[{add,10},{<0.298.0>,#Ref<0.3563171291.904921091.196483>},#{amount => 10,key => <<"banane">>}],[{file,"lib/agent.ex"},{line,18}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.286.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.288.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 7401
+  neighbours:
+2020-12-21 18:45:56 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {function_clause,[{'Elixir.CALC.Agent',handle_call,[{add,10},{<0.298.0>,#Ref<0.3563171291.904921091.196483>},#{amount => 10,key => <<"banane">>}],[{file,"lib/agent.ex"},{line,18}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.293.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"banane">>,10]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 18:48:15 =ERROR REPORT====
+** Generic server banane_agent terminating 
+** Last message in was {'$gen_cast',{add,10}}
+** When Server state == #{amount => 10,key => <<"banane">>}
+** Reason for termination ==
+** {#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to cast GenServer #PID<0.294.0> but no handle_cast/2 clause was provided">>},[{'Elixir.CALC.Agent',handle_cast,2,[{file,"lib/gen_server.ex"},{line,822}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-12-21 18:48:15 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.294.0>
+    registered_name: []
+    exception error: {#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to cast GenServer #PID<0.294.0> but no handle_cast/2 clause was provided">>},[{'Elixir.CALC.Agent',handle_cast,2,[{file,"lib/gen_server.ex"},{line,822}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 3591
+  neighbours:
+2020-12-21 18:48:15 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to cast GenServer #PID<0.294.0> but no handle_cast/2 clause was provided">>},[{'Elixir.CALC.Agent',handle_cast,2,[{file,"lib/gen_server.ex"},{line,822}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.294.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"banane">>,10]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 18:52:24 =ERROR REPORT====
+** Generic server banane_agent terminating 
+** Last message in was {'$gen_cast',{add,10}}
+** When Server state == #{amount => 10,key => <<"banane">>}
+** Reason for termination ==
+** {#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to cast GenServer #PID<0.294.0> but no handle_cast/2 clause was provided">>},[{'Elixir.CALC.Agent',handle_cast,2,[{file,"lib/gen_server.ex"},{line,822}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-12-21 18:52:24 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.294.0>
+    registered_name: []
+    exception error: {#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to cast GenServer #PID<0.294.0> but no handle_cast/2 clause was provided">>},[{'Elixir.CALC.Agent',handle_cast,2,[{file,"lib/gen_server.ex"},{line,822}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 3611
+  neighbours:
+2020-12-21 18:52:24 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to cast GenServer #PID<0.294.0> but no handle_cast/2 clause was provided">>},[{'Elixir.CALC.Agent',handle_cast,2,[{file,"lib/gen_server.ex"},{line,822}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.294.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"banane">>,10]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 18:57:03 =ERROR REPORT====
+** Generic server banane_agent terminating 
+** Last message in was {'$gen_cast',{add,10}}
+** When Server state == #{amount => 10,key => <<"banane">>}
+** Reason for termination ==
+** {#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to cast GenServer #PID<0.279.0> but no handle_cast/2 clause was provided">>},[{'Elixir.CALC.Agent',handle_cast,2,[{file,"lib/gen_server.ex"},{line,822}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-12-21 18:57:03 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.279.0>
+    registered_name: []
+    exception error: {#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to cast GenServer #PID<0.279.0> but no handle_cast/2 clause was provided">>},[{'Elixir.CALC.Agent',handle_cast,2,[{file,"lib/gen_server.ex"},{line,822}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.274.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 3532
+  neighbours:
+2020-12-21 18:57:03 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to cast GenServer #PID<0.279.0> but no handle_cast/2 clause was provided">>},[{'Elixir.CALC.Agent',handle_cast,2,[{file,"lib/gen_server.ex"},{line,822}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.279.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"banane">>,10]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 19:00:05 =ERROR REPORT====
+** Generic server banane_agent terminating 
+** Last message in was {'$gen_cast',{add,10}}
+** When Server state == #{amount => 10,key => <<"banane">>}
+** Reason for termination ==
+** {#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to cast GenServer #PID<0.294.0> but no handle_cast/2 clause was provided">>},[{'Elixir.CALC.Agent',handle_cast,2,[{file,"lib/gen_server.ex"},{line,822}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-12-21 19:00:05 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.294.0>
+    registered_name: []
+    exception error: {#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to cast GenServer #PID<0.294.0> but no handle_cast/2 clause was provided">>},[{'Elixir.CALC.Agent',handle_cast,2,[{file,"lib/gen_server.ex"},{line,822}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 3647
+  neighbours:
+2020-12-21 19:00:05 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to cast GenServer #PID<0.294.0> but no handle_cast/2 clause was provided">>},[{'Elixir.CALC.Agent',handle_cast,2,[{file,"lib/gen_server.ex"},{line,822}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.294.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"banane">>,10]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 19:51:50 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.MainSupervisor'}
+     Context:    start_error
+     Reason:     {'EXIT',{undef,[{'Elixir.CALC.Resupply',start,[],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,385}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,371}]},{supervisor,'-start_children/2-fun-0-',3,[{file,"supervisor.erl"},{line,355}]},{supervisor,children_map,4,[{file,"supervisor.erl"},{line,1171}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,321}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]}]}}
+     Offender:   [{pid,undefined},{id,<<"resupply">>},{mfargs,{'Elixir.CALC.Resupply',start,[]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 19:51:50 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.298.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.CALC.Application',start,[normal,[]]},{'EXIT',{noproc,{'Elixir.GenServer',call,['Elixir.CALC.AgentSupervisor',{start_child,{{'Elixir.CALC.Agent',start,[<<"banane">>,10]},transient,5000,worker,['Elixir.CALC.Agent']}},infinity]}}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.297.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.299.0>,normal}]
+    links: [<0.297.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 219
+  neighbours:
+2020-12-21 19:53:35 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.MainSupervisor'}
+     Context:    start_error
+     Reason:     {'EXIT',{undef,[{'Elixir.CALC.Resupply',start,[],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,385}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,371}]},{supervisor,'-start_children/2-fun-0-',3,[{file,"supervisor.erl"},{line,355}]},{supervisor,children_map,4,[{file,"supervisor.erl"},{line,1171}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,321}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]}]}}
+     Offender:   [{pid,undefined},{id,<<"resupply">>},{mfargs,{'Elixir.CALC.Resupply',start,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 19:53:35 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.297.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.CALC.Application',start,[normal,[]]},{'EXIT',{noproc,{'Elixir.GenServer',call,['Elixir.CALC.AgentSupervisor',{start_child,{{'Elixir.CALC.Agent',start,[<<"banane">>,10]},transient,5000,worker,['Elixir.CALC.Agent']}},infinity]}}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.296.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.298.0>,normal}]
+    links: [<0.296.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 219
+  neighbours:
+2020-12-21 19:56:16 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.MainSupervisor'}
+     Context:    start_error
+     Reason:     {'EXIT',{undef,[{'Elixir.CALC.Resupply',start,[],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,385}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,371}]},{supervisor,'-start_children/2-fun-0-',3,[{file,"supervisor.erl"},{line,355}]},{supervisor,children_map,4,[{file,"supervisor.erl"},{line,1171}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,321}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]}]}}
+     Offender:   [{pid,undefined},{id,1},{mfargs,{'Elixir.CALC.Resupply',start,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 19:56:16 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.285.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.CALC.Application',start,[normal,[]]},{'EXIT',{noproc,{'Elixir.GenServer',call,['Elixir.CALC.AgentSupervisor',{start_child,{{'Elixir.CALC.Agent',start,[<<"banane">>,10]},transient,5000,worker,['Elixir.CALC.Agent']}},infinity]}}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.284.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.286.0>,normal}]
+    links: [<0.284.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 219
+  neighbours:
+2020-12-21 19:56:44 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.MainSupervisor'}
+     Context:    start_error
+     Reason:     {'EXIT',{undef,[{'Elixir.CALC.Resupply',start_link,[[]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,385}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,371}]},{supervisor,'-start_children/2-fun-0-',3,[{file,"supervisor.erl"},{line,355}]},{supervisor,children_map,4,[{file,"supervisor.erl"},{line,1171}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,321}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]}]}}
+     Offender:   [{pid,undefined},{id,'Elixir.CALC.Resupply'},{mfargs,{'Elixir.CALC.Resupply',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 19:56:44 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.285.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.CALC.Application',start,[normal,[]]},{'EXIT',{noproc,{'Elixir.GenServer',call,['Elixir.CALC.AgentSupervisor',{start_child,{{'Elixir.CALC.Agent',start,[<<"banane">>,10]},transient,5000,worker,['Elixir.CALC.Agent']}},infinity]}}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.284.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.286.0>,normal}]
+    links: [<0.284.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 219
+  neighbours:
+2020-12-21 20:00:16 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.MainSupervisor'}
+     Context:    start_error
+     Reason:     {'EXIT',{undef,[{'Elixir.CALC.Resupply',start,[],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,385}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,371}]},{supervisor,'-start_children/2-fun-0-',3,[{file,"supervisor.erl"},{line,355}]},{supervisor,children_map,4,[{file,"supervisor.erl"},{line,1171}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,321}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]}]}}
+     Offender:   [{pid,undefined},{id,<<"resupply">>},{mfargs,{'Elixir.CALC.Resupply',start,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 20:00:16 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.285.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.CALC.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => {error,{shutdown,{failed_to_start_child,<<"resupply">>,{'EXIT',{undef,[{'Elixir.CALC.Resupply',start,[],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,385}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,371}]},{supervisor,'-start_children/2-fun-0-',3,[{file,"supervisor.erl"},{line,355}]},{supervisor,children_map,4,[{file,"supervisor.erl"},{line,1171}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,321}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]}]}}}}}},[{'Elixir.String.Chars','impl_for!',1,[{file,"lib/string/chars.ex"},{line,3}]},{'Elixir.String.Chars',to_string,1,[{file,"lib/string/chars.ex"},{line,22}]},{'Elixir.IO',puts,2,[{file,"lib/io.ex"},{line,686}]},{'Elixir.CALC.Application',start,2,[{file,"lib/application.ex"},{line,19}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.284.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.286.0>,normal}]
+    links: [<0.284.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 261
+  neighbours:
+2020-12-21 20:01:48 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.MainSupervisor'}
+     Context:    start_error
+     Reason:     {'EXIT',{undef,[{'Elixir.CALC.Resupply',start_link,[[]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,385}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,371}]},{supervisor,'-start_children/2-fun-0-',3,[{file,"supervisor.erl"},{line,355}]},{supervisor,children_map,4,[{file,"supervisor.erl"},{line,1171}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,321}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]}]}}
+     Offender:   [{pid,undefined},{id,'Elixir.CALC.Resupply'},{mfargs,{'Elixir.CALC.Resupply',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 20:01:48 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.285.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.CALC.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => {error,{shutdown,{failed_to_start_child,'Elixir.CALC.Resupply',{'EXIT',{undef,[{'Elixir.CALC.Resupply',start_link,[[]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,385}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,371}]},{supervisor,'-start_children/2-fun-0-',3,[{file,"supervisor.erl"},{line,355}]},{supervisor,children_map,4,[{file,"supervisor.erl"},{line,1171}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,321}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]}]}}}}}},[{'Elixir.String.Chars','impl_for!',1,[{file,"lib/string/chars.ex"},{line,3}]},{'Elixir.String.Chars',to_string,1,[{file,"lib/string/chars.ex"},{line,22}]},{'Elixir.IO',puts,2,[{file,"lib/io.ex"},{line,686}]},{'Elixir.CALC.Application',start,2,[{file,"lib/application.ex"},{line,19}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.284.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.286.0>,normal}]
+    links: [<0.284.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 261
+  neighbours:
+2020-12-21 20:02:22 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.286.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.CALC.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => {ok,<0.288.0>}},[{'Elixir.String.Chars','impl_for!',1,[{file,"lib/string/chars.ex"},{line,3}]},{'Elixir.String.Chars',to_string,1,[{file,"lib/string/chars.ex"},{line,22}]},{'Elixir.IO',puts,2,[{file,"lib/io.ex"},{line,686}]},{'Elixir.CALC.Application',start,2,[{file,"lib/application.ex"},{line,19}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.285.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.287.0>,normal}]
+    links: [<0.285.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 224
+  neighbours:
+2020-12-21 20:06:10 =ERROR REPORT====
+** Generic server resupply terminating 
+** Last message in was {resupply,<0.295.0>}
+** When Server state == []
+** Reason for termination ==
+** {#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to call GenServer #PID<0.289.0> but no handle_call/3 clause was provided">>},[{'Elixir.CALC.Resupply',handle_call,3,[{file,"lib/gen_server.ex"},{line,777}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+** Client <0.295.0> stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{'Elixir.CALC.Agent',handle_call,3,[{file,"lib/agent.ex"},{line,27}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]
+2020-12-21 20:06:10 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Resupply:init/1
+    pid: <0.289.0>
+    registered_name: []
+    exception error: {#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to call GenServer #PID<0.289.0> but no handle_call/3 clause was provided">>},[{'Elixir.CALC.Resupply',handle_call,3,[{file,"lib/gen_server.ex"},{line,777}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.MainSupervisor',<0.286.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.287.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5492
+  neighbours:
+2020-12-21 20:06:10 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.MainSupervisor'}
+     Context:    child_terminated
+     Reason:     {#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to call GenServer #PID<0.289.0> but no handle_call/3 clause was provided">>},[{'Elixir.CALC.Resupply',handle_call,3,[{file,"lib/gen_server.ex"},{line,777}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.289.0>},{id,'Elixir.CALC.Resupply'},{mfargs,{'Elixir.CALC.Resupply',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 20:06:10 =ERROR REPORT====
+** Generic server banane_agent terminating 
+** Last message in was {remove,9}
+** When Server state == #{amount => 10,key => <<"banane">>}
+** Reason for termination ==
+** {{{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to call GenServer #PID<0.289.0> but no handle_call/3 clause was provided">>},[{'Elixir.CALC.Resupply',handle_call,3,[{file,"lib/gen_server.ex"},{line,777}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GenServer',call,[<0.289.0>,{resupply,<0.295.0>},5000]}},[{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1027}]},{'Elixir.CALC.Agent',handle_call,3,[{file,"lib/agent.ex"},{line,27}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+** Client <0.300.0> stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{erl_eval,do_apply,6,[{file,"erl_eval.erl"},{line,680}]},{elixir,recur_eval,3,[{file,"src/elixir.erl"},{line,280}]},{elixir,eval_forms,3,[{file,"src/elixir.erl"},{line,265}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,261}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,242}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,220}]}]
+2020-12-21 20:06:10 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.295.0>
+    registered_name: []
+    exception exit: {{{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to call GenServer #PID<0.289.0> but no handle_call/3 clause was provided">>},[{'Elixir.CALC.Resupply',handle_call,3,[{file,"lib/gen_server.ex"},{line,777}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GenServer',call,[<0.289.0>,{resupply,<0.295.0>},5000]}},[{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1027}]},{'Elixir.CALC.Agent',handle_call,3,[{file,"lib/agent.ex"},{line,27}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.286.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.288.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 8887
+  neighbours:
+2020-12-21 20:06:10 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to call GenServer #PID<0.289.0> but no handle_call/3 clause was provided">>},[{'Elixir.CALC.Resupply',handle_call,3,[{file,"lib/gen_server.ex"},{line,777}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GenServer',call,[<0.289.0>,{resupply,<0.295.0>},5000]}}
+     Offender:   [{pid,<0.295.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"banane">>,10]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 20:07:25 =ERROR REPORT====
+** Generic server resupply terminating 
+** Last message in was {'$gen_cast',{resupply,<0.296.0>}}
+** When Server state == []
+** Reason for termination ==
+** {function_clause,[{'Elixir.CALC.Resupply',handle_cast,[{resupply,<0.296.0>},[]],[{file,"lib/resupply.ex"},{line,14}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-12-21 20:07:25 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Resupply:init/1
+    pid: <0.290.0>
+    registered_name: []
+    exception error: {function_clause,[{'Elixir.CALC.Resupply',handle_cast,[{resupply,<0.296.0>},[]],[{file,"lib/resupply.ex"},{line,14}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.288.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 3528
+  neighbours:
+2020-12-21 20:07:25 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.MainSupervisor'}
+     Context:    child_terminated
+     Reason:     {function_clause,[{'Elixir.CALC.Resupply',handle_cast,[{resupply,<0.296.0>},[]],[{file,"lib/resupply.ex"},{line,14}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.290.0>},{id,'Elixir.CALC.Resupply'},{mfargs,{'Elixir.CALC.Resupply',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 20:13:46 =ERROR REPORT====
+** Generic server resupply terminating 
+** Last message in was {'$gen_cast',{resupply,<0.296.0>}}
+** When Server state == []
+** Reason for termination ==
+** {function_clause,[{'Elixir.CALC.Resupply',handle_cast,[{resupply,<0.296.0>},[]],[{file,"lib/resupply.ex"},{line,14}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-12-21 20:13:46 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Resupply:init/1
+    pid: <0.290.0>
+    registered_name: []
+    exception error: {function_clause,[{'Elixir.CALC.Resupply',handle_cast,[{resupply,<0.296.0>},[]],[{file,"lib/resupply.ex"},{line,14}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.288.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 3558
+  neighbours:
+2020-12-21 20:13:46 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.MainSupervisor'}
+     Context:    child_terminated
+     Reason:     {function_clause,[{'Elixir.CALC.Resupply',handle_cast,[{resupply,<0.296.0>},[]],[{file,"lib/resupply.ex"},{line,14}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.290.0>},{id,'Elixir.CALC.Resupply'},{mfargs,{'Elixir.CALC.Resupply',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 20:15:04 =ERROR REPORT====
+** Generic server banane_agent terminating 
+** Last message in was {add,10}
+** When Server state == #{amount => 1,key => <<"banane">>}
+** Reason for termination ==
+** {function_clause,[{'Elixir.CALC.Agent',handle_call,[{add,10},{<0.290.0>,#Ref<0.2979725000.2797600773.136215>},#{amount => 1,key => <<"banane">>}],[{file,"lib/agent.ex"},{line,20}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+** Client <0.290.0> stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Resupply',handle_cast,2,[{file,"lib/resupply.ex"},{line,22}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]
+2020-12-21 20:15:04 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.296.0>
+    registered_name: []
+    exception error: {function_clause,[{'Elixir.CALC.Agent',handle_call,[{add,10},{<0.290.0>,#Ref<0.2979725000.2797600773.136215>},#{amount => 1,key => <<"banane">>}],[{file,"lib/agent.ex"},{line,20}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 28
+    reductions: 6826
+  neighbours:
+2020-12-21 20:15:04 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {function_clause,[{'Elixir.CALC.Agent',handle_call,[{add,10},{<0.290.0>,#Ref<0.2979725000.2797600773.136215>},#{amount => 1,key => <<"banane">>}],[{file,"lib/agent.ex"},{line,20}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.296.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"banane">>,10]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 20:15:04 =ERROR REPORT====
+** Generic server resupply terminating 
+** Last message in was {'$gen_cast',go}
+** When Server state == [<0.296.0>]
+** Reason for termination ==
+** {{{function_clause,[{'Elixir.CALC.Agent',handle_call,[{add,10},{<0.290.0>,#Ref<0.2979725000.2797600773.136215>},#{amount => 1,key => <<"banane">>}],[{file,"lib/agent.ex"},{line,20}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GenServer',call,[<0.296.0>,{add,10},5000]}},[{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1027}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Resupply',handle_cast,2,[{file,"lib/resupply.ex"},{line,22}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-12-21 20:15:04 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Resupply:init/1
+    pid: <0.290.0>
+    registered_name: []
+    exception exit: {{{function_clause,[{'Elixir.CALC.Agent',handle_call,[{add,10},{<0.290.0>,#Ref<0.2979725000.2797600773.136215>},#{amount => 1,key => <<"banane">>}],[{file,"lib/agent.ex"},{line,20}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GenServer',call,[<0.296.0>,{add,10},5000]}},[{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1027}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Resupply',handle_cast,2,[{file,"lib/resupply.ex"},{line,22}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.288.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 6339
+  neighbours:
+2020-12-21 20:15:04 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.MainSupervisor'}
+     Context:    child_terminated
+     Reason:     {{function_clause,[{'Elixir.CALC.Agent',handle_call,[{add,10},{<0.290.0>,#Ref<0.2979725000.2797600773.136215>},#{amount => 1,key => <<"banane">>}],[{file,"lib/agent.ex"},{line,20}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GenServer',call,[<0.296.0>,{add,10},5000]}}
+     Offender:   [{pid,<0.290.0>},{id,'Elixir.CALC.Resupply'},{mfargs,{'Elixir.CALC.Resupply',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 21:23:55 =ERROR REPORT====
+** Generic server resupply terminating 
+** Last message in was {'$gen_cast',{resupply,<0.298.0>}}
+** When Server state == [<0.300.0>|<0.297.0>]
+** Reason for termination ==
+** {function_clause,[{'Elixir.CALC.Resupply',handle_cast,[{resupply,<0.298.0>},[<0.300.0>|<0.297.0>]],[{file,"lib/resupply.ex"},{line,14}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-12-21 21:23:55 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Resupply:init/1
+    pid: <0.290.0>
+    registered_name: []
+    exception error: {function_clause,[{'Elixir.CALC.Resupply',handle_cast,[{resupply,<0.298.0>},[<0.300.0>|<0.297.0>]],[{file,"lib/resupply.ex"},{line,14}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.MainSupervisor',<0.286.0>]
+    message_queue_len: 3
+    messages: [{'$gen_cast',{resupply,<0.300.0>}},{'$gen_cast',{resupply,<0.299.0>}},{'$gen_cast',{resupply,<0.296.0>}}]
+    links: [<0.287.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 3835
+  neighbours:
+2020-12-21 21:23:55 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.MainSupervisor'}
+     Context:    child_terminated
+     Reason:     {function_clause,[{'Elixir.CALC.Resupply',handle_cast,[{resupply,<0.298.0>},[<0.300.0>|<0.297.0>]],[{file,"lib/resupply.ex"},{line,14}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.290.0>},{id,'Elixir.CALC.Resupply'},{mfargs,{'Elixir.CALC.Resupply',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 21:25:02 =ERROR REPORT====
+** Generic server resupply terminating 
+** Last message in was {'$gen_cast',go}
+** When Server state == [[[[[]|<0.297.0>]|<0.299.0>]|<0.298.0>]|<0.300.0>]
+** Reason for termination ==
+** {function_clause,[{'Elixir.GenServer',cast,[[[[[]|<0.297.0>]|<0.299.0>]|<0.298.0>],{add,10}],[{file,"lib/gen_server.ex"},{line,1058}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Resupply',handle_cast,2,[{file,"lib/resupply.ex"},{line,20}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-12-21 21:25:02 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Resupply:init/1
+    pid: <0.291.0>
+    registered_name: []
+    exception error: {function_clause,[{'Elixir.GenServer',cast,[[[[[]|<0.297.0>]|<0.299.0>]|<0.298.0>],{add,10}],[{file,"lib/gen_server.ex"},{line,1058}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Resupply',handle_cast,2,[{file,"lib/resupply.ex"},{line,20}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.288.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5041
+  neighbours:
+2020-12-21 21:25:02 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.MainSupervisor'}
+     Context:    child_terminated
+     Reason:     {function_clause,[{'Elixir.GenServer',cast,[[[[[]|<0.297.0>]|<0.299.0>]|<0.298.0>],{add,10}],[{file,"lib/gen_server.ex"},{line,1058}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Resupply',handle_cast,2,[{file,"lib/resupply.ex"},{line,20}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.291.0>},{id,'Elixir.CALC.Resupply'},{mfargs,{'Elixir.CALC.Resupply',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 21:26:21 =ERROR REPORT====
+** Generic server resupply terminating 
+** Last message in was {'$gen_cast',{resupply,<0.303.0>}}
+** When Server state == [<0.304.0>|<0.305.0>]
+** Reason for termination ==
+** {function_clause,[{'Elixir.CALC.Resupply',handle_cast,[{resupply,<0.303.0>},[<0.304.0>|<0.305.0>]],[{file,"lib/resupply.ex"},{line,14}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-12-21 21:26:21 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Resupply:init/1
+    pid: <0.297.0>
+    registered_name: []
+    exception error: {function_clause,[{'Elixir.CALC.Resupply',handle_cast,[{resupply,<0.303.0>},[<0.304.0>|<0.305.0>]],[{file,"lib/resupply.ex"},{line,14}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.MainSupervisor',<0.293.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.294.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 3751
+  neighbours:
+2020-12-21 21:26:21 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.MainSupervisor'}
+     Context:    child_terminated
+     Reason:     {function_clause,[{'Elixir.CALC.Resupply',handle_cast,[{resupply,<0.303.0>},[<0.304.0>|<0.305.0>]],[{file,"lib/resupply.ex"},{line,14}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.297.0>},{id,'Elixir.CALC.Resupply'},{mfargs,{'Elixir.CALC.Resupply',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 21:26:27 =ERROR REPORT====
+** Generic server resupply terminating 
+** Last message in was {'$gen_cast',{resupply,<0.306.0>}}
+** When Server state == [<0.305.0>|<0.307.0>]
+** Reason for termination ==
+** {function_clause,[{'Elixir.CALC.Resupply',handle_cast,[{resupply,<0.306.0>},[<0.305.0>|<0.307.0>]],[{file,"lib/resupply.ex"},{line,14}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-12-21 21:26:27 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Resupply:init/1
+    pid: <0.308.0>
+    registered_name: []
+    exception error: {function_clause,[{'Elixir.CALC.Resupply',handle_cast,[{resupply,<0.306.0>},[<0.305.0>|<0.307.0>]],[{file,"lib/resupply.ex"},{line,14}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.MainSupervisor',<0.293.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.294.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 3614
+  neighbours:
+2020-12-21 21:26:27 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.MainSupervisor'}
+     Context:    child_terminated
+     Reason:     {function_clause,[{'Elixir.CALC.Resupply',handle_cast,[{resupply,<0.306.0>},[<0.305.0>|<0.307.0>]],[{file,"lib/resupply.ex"},{line,14}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.308.0>},{id,'Elixir.CALC.Resupply'},{mfargs,{'Elixir.CALC.Resupply',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 21:29:03 =ERROR REPORT====
+** Generic server resupply terminating 
+** Last message in was {'$gen_cast',{resupply,<0.299.0>}}
+** When Server state == [<0.301.0>|<0.297.0>]
+** Reason for termination ==
+** {function_clause,[{'Elixir.CALC.Resupply',handle_cast,[{resupply,<0.299.0>},[<0.301.0>|<0.297.0>]],[{file,"lib/resupply.ex"},{line,14}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-12-21 21:29:03 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Resupply:init/1
+    pid: <0.291.0>
+    registered_name: []
+    exception error: {function_clause,[{'Elixir.CALC.Resupply',handle_cast,[{resupply,<0.299.0>},[<0.301.0>|<0.297.0>]],[{file,"lib/resupply.ex"},{line,14}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.288.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 3727
+  neighbours:
+2020-12-21 21:29:03 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.MainSupervisor'}
+     Context:    child_terminated
+     Reason:     {function_clause,[{'Elixir.CALC.Resupply',handle_cast,[{resupply,<0.299.0>},[<0.301.0>|<0.297.0>]],[{file,"lib/resupply.ex"},{line,14}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.291.0>},{id,'Elixir.CALC.Resupply'},{mfargs,{'Elixir.CALC.Resupply',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 21:29:07 =ERROR REPORT====
+** Generic server resupply terminating 
+** Last message in was {'$gen_cast',{resupply,<0.301.0>}}
+** When Server state == [<0.300.0>|<0.298.0>]
+** Reason for termination ==
+** {function_clause,[{'Elixir.CALC.Resupply',handle_cast,[{resupply,<0.301.0>},[<0.300.0>|<0.298.0>]],[{file,"lib/resupply.ex"},{line,14}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-12-21 21:29:07 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Resupply:init/1
+    pid: <0.302.0>
+    registered_name: []
+    exception error: {function_clause,[{'Elixir.CALC.Resupply',handle_cast,[{resupply,<0.301.0>},[<0.300.0>|<0.298.0>]],[{file,"lib/resupply.ex"},{line,14}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.288.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 3590
+  neighbours:
+2020-12-21 21:29:07 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.MainSupervisor'}
+     Context:    child_terminated
+     Reason:     {function_clause,[{'Elixir.CALC.Resupply',handle_cast,[{resupply,<0.301.0>},[<0.300.0>|<0.298.0>]],[{file,"lib/resupply.ex"},{line,14}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.302.0>},{id,'Elixir.CALC.Resupply'},{mfargs,{'Elixir.CALC.Resupply',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 21:29:07 =ERROR REPORT====
+** Generic server resupply terminating 
+** Last message in was {'$gen_cast',{resupply,<0.298.0>}}
+** When Server state == [<0.299.0>|<0.297.0>]
+** Reason for termination ==
+** {function_clause,[{'Elixir.CALC.Resupply',handle_cast,[{resupply,<0.298.0>},[<0.299.0>|<0.297.0>]],[{file,"lib/resupply.ex"},{line,14}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-12-21 21:29:07 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Resupply:init/1
+    pid: <0.304.0>
+    registered_name: []
+    exception error: {function_clause,[{'Elixir.CALC.Resupply',handle_cast,[{resupply,<0.298.0>},[<0.299.0>|<0.297.0>]],[{file,"lib/resupply.ex"},{line,14}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.288.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 3590
+  neighbours:
+2020-12-21 21:29:07 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.MainSupervisor'}
+     Context:    child_terminated
+     Reason:     {function_clause,[{'Elixir.CALC.Resupply',handle_cast,[{resupply,<0.298.0>},[<0.299.0>|<0.297.0>]],[{file,"lib/resupply.ex"},{line,14}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.304.0>},{id,'Elixir.CALC.Resupply'},{mfargs,{'Elixir.CALC.Resupply',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 21:29:49 =ERROR REPORT====
+** Generic server resupply terminating 
+** Last message in was {'$gen_cast',{resupply,<0.299.0>}}
+** When Server state == [<0.301.0>|<0.300.0>]
+** Reason for termination ==
+** {badarg,[{erlang,'++',[[<0.301.0>|<0.300.0>],<0.299.0>],[]},{'Elixir.CALC.Resupply',handle_cast,2,[{file,"lib/resupply.ex"},{line,18}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-12-21 21:29:49 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Resupply:init/1
+    pid: <0.291.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,'++',[[<0.301.0>|<0.300.0>],<0.299.0>],[]},{'Elixir.CALC.Resupply',handle_cast,2,[{file,"lib/resupply.ex"},{line,18}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]
+    ancestors: ['Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.288.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 3843
+  neighbours:
+2020-12-21 21:29:49 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.MainSupervisor'}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,'++',[[<0.301.0>|<0.300.0>],<0.299.0>],[]},{'Elixir.CALC.Resupply',handle_cast,2,[{file,"lib/resupply.ex"},{line,18}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.291.0>},{id,'Elixir.CALC.Resupply'},{mfargs,{'Elixir.CALC.Resupply',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 21:29:51 =ERROR REPORT====
+** Generic server resupply terminating 
+** Last message in was {'$gen_cast',{resupply,<0.298.0>}}
+** When Server state == [<0.300.0>|<0.301.0>]
+** Reason for termination ==
+** {badarg,[{erlang,'++',[[<0.300.0>|<0.301.0>],<0.298.0>],[]},{'Elixir.CALC.Resupply',handle_cast,2,[{file,"lib/resupply.ex"},{line,18}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-12-21 21:29:51 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Resupply:init/1
+    pid: <0.302.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,'++',[[<0.300.0>|<0.301.0>],<0.298.0>],[]},{'Elixir.CALC.Resupply',handle_cast,2,[{file,"lib/resupply.ex"},{line,18}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]
+    ancestors: ['Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.288.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 3705
+  neighbours:
+2020-12-21 21:29:51 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.MainSupervisor'}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,'++',[[<0.300.0>|<0.301.0>],<0.298.0>],[]},{'Elixir.CALC.Resupply',handle_cast,2,[{file,"lib/resupply.ex"},{line,18}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.302.0>},{id,'Elixir.CALC.Resupply'},{mfargs,{'Elixir.CALC.Resupply',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:09:46 =ERROR REPORT====
+** Generic server poire_agent terminating 
+** Last message in was {remove,1}
+** When Server state == #{amount => 10,key => <<"poire">>,resupplied => true,resupply_pid => <0.296.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:09:46 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.305.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.292.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.294.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5513
+  neighbours:
+2020-12-21 22:09:46 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.305.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"poire">>,10,<0.296.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:09:46 =ERROR REPORT====
+** Generic server framboise_agent terminating 
+** Last message in was {remove,1}
+** When Server state == #{amount => 10,key => <<"framboise">>,resupplied => true,resupply_pid => <0.296.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:09:46 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.303.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.292.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.294.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5377
+  neighbours:
+2020-12-21 22:09:46 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.303.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"framboise">>,10,<0.296.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:09:46 =ERROR REPORT====
+** Generic server banane_agent terminating 
+** Last message in was {remove,1}
+** When Server state == #{amount => 10,key => <<"banane">>,resupplied => true,resupply_pid => <0.296.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:09:46 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.302.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.292.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.294.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5377
+  neighbours:
+2020-12-21 22:09:46 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.302.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"banane">>,10,<0.296.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:09:46 =ERROR REPORT====
+** Generic server peche_agent terminating 
+** Last message in was {remove,2}
+** When Server state == #{amount => 10,key => <<"peche">>,resupplied => true,resupply_pid => <0.296.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:09:46 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.306.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.292.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.294.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5377
+  neighbours:
+2020-12-21 22:09:46 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.306.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"peche">>,10,<0.296.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:09:46 =ERROR REPORT====
+** Generic server pomme_agent terminating 
+** Last message in was {remove,2}
+** When Server state == #{amount => 10,key => <<"pomme">>,resupplied => true,resupply_pid => <0.296.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:09:46 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.304.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.292.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.294.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5377
+  neighbours:
+2020-12-21 22:09:46 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.304.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"pomme">>,10,<0.296.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:14:32 =ERROR REPORT====
+** Generic server pomme_agent terminating 
+** Last message in was {remove,1}
+** When Server state == #{amount => 10,key => <<"pomme">>,resupplied => true,resupply_pid => <0.290.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:14:32 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.298.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.286.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.288.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5519
+  neighbours:
+2020-12-21 22:14:32 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.298.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"pomme">>,10,<0.290.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:14:32 =ERROR REPORT====
+** Generic server poire_agent terminating 
+** Last message in was {remove,2}
+** When Server state == #{amount => 10,key => <<"poire">>,resupplied => true,resupply_pid => <0.290.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:14:32 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.299.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.286.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.288.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5377
+  neighbours:
+2020-12-21 22:14:32 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.299.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"poire">>,10,<0.290.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:14:32 =ERROR REPORT====
+** Generic server banane_agent terminating 
+** Last message in was {remove,3}
+** When Server state == #{amount => 10,key => <<"banane">>,resupplied => true,resupply_pid => <0.290.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:14:32 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.296.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.286.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.288.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5377
+  neighbours:
+2020-12-21 22:14:32 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.296.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"banane">>,10,<0.290.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:16:41 =ERROR REPORT====
+** Generic server poire_agent terminating 
+** Last message in was {remove,1}
+** When Server state == #{amount => 10,key => <<"poire">>,resupplied => true,resupply_pid => <0.296.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:16:41 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.305.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.292.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.294.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5403
+  neighbours:
+2020-12-21 22:16:41 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.305.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"poire">>,10,<0.296.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:16:41 =ERROR REPORT====
+** Generic server peche_agent terminating 
+** Last message in was {remove,2}
+** When Server state == #{amount => 10,key => <<"peche">>,resupplied => true,resupply_pid => <0.296.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:16:41 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.306.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.292.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.294.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5095
+  neighbours:
+2020-12-21 22:16:41 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.306.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"peche">>,10,<0.296.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:16:41 =ERROR REPORT====
+** Generic server framboise_agent terminating 
+** Last message in was {remove,2}
+** When Server state == #{amount => 10,key => <<"framboise">>,resupplied => true,resupply_pid => <0.296.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:16:41 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.303.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.292.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.294.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5116
+  neighbours:
+2020-12-21 22:16:41 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.303.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"framboise">>,10,<0.296.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:16:41 =ERROR REPORT====
+** Generic server banane_agent terminating 
+** Last message in was {remove,3}
+** When Server state == #{amount => 10,key => <<"banane">>,resupplied => true,resupply_pid => <0.296.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:16:41 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.302.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.292.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.294.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5108
+  neighbours:
+2020-12-21 22:16:41 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.302.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"banane">>,10,<0.296.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:19:54 =ERROR REPORT====
+** Generic server poire_agent terminating 
+** Last message in was {remove,3}
+** When Server state == #{amount => 10,key => <<"poire">>,resupplied => true,resupply_pid => <0.291.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:19:54 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.300.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5813
+  neighbours:
+2020-12-21 22:19:54 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.300.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"poire">>,10,<0.291.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:19:54 =ERROR REPORT====
+** Generic server peche_agent terminating 
+** Last message in was {remove,2}
+** When Server state == #{amount => 10,key => <<"peche">>,resupplied => true,resupply_pid => <0.291.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:19:54 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.301.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5377
+  neighbours:
+2020-12-21 22:19:54 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.301.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"peche">>,10,<0.291.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:19:54 =ERROR REPORT====
+** Generic server framboise_agent terminating 
+** Last message in was {remove,2}
+** When Server state == #{amount => 10,key => <<"framboise">>,resupplied => true,resupply_pid => <0.291.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:19:54 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.298.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5377
+  neighbours:
+2020-12-21 22:19:54 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.298.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"framboise">>,10,<0.291.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:20:51 =ERROR REPORT====
+** Generic server poire_agent terminating 
+** Last message in was {remove,3}
+** When Server state == #{amount => 10,key => <<"poire">>,resupplied => true,resupply_pid => <0.291.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:20:51 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.300.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5789
+  neighbours:
+2020-12-21 22:20:51 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.300.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"poire">>,10,<0.291.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:20:51 =ERROR REPORT====
+** Generic server framboise_agent terminating 
+** Last message in was {remove,2}
+** When Server state == #{amount => 10,key => <<"framboise">>,resupplied => true,resupply_pid => <0.291.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:20:51 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.298.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5377
+  neighbours:
+2020-12-21 22:20:51 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.298.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"framboise">>,10,<0.291.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:20:51 =ERROR REPORT====
+** Generic server peche_agent terminating 
+** Last message in was {remove,2}
+** When Server state == #{amount => 10,key => <<"peche">>,resupplied => true,resupply_pid => <0.291.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:20:51 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.301.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5377
+  neighbours:
+2020-12-21 22:20:51 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.301.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"peche">>,10,<0.291.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:21:10 =ERROR REPORT====
+** Generic server banane_agent terminating 
+** Last message in was {remove,2}
+** When Server state == #{amount => 10,key => <<"banane">>,resupplied => true,resupply_pid => <0.291.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:21:10 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.297.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5787
+  neighbours:
+2020-12-21 22:21:10 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.297.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"banane">>,10,<0.291.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:21:10 =ERROR REPORT====
+** Generic server pomme_agent terminating 
+** Last message in was {remove,2}
+** When Server state == #{amount => 10,key => <<"pomme">>,resupplied => true,resupply_pid => <0.291.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:21:10 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.299.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5377
+  neighbours:
+2020-12-21 22:21:10 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.299.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"pomme">>,10,<0.291.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:21:10 =ERROR REPORT====
+** Generic server framboise_agent terminating 
+** Last message in was {remove,1}
+** When Server state == #{amount => 10,key => <<"framboise">>,resupplied => true,resupply_pid => <0.291.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:21:10 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.298.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5377
+  neighbours:
+2020-12-21 22:21:10 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.298.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"framboise">>,10,<0.291.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:21:10 =ERROR REPORT====
+** Generic server peche_agent terminating 
+** Last message in was {remove,2}
+** When Server state == #{amount => 10,key => <<"peche">>,resupplied => true,resupply_pid => <0.291.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:21:10 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.301.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5377
+  neighbours:
+2020-12-21 22:21:10 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.301.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"peche">>,10,<0.291.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:22:36 =ERROR REPORT====
+** Generic server peche_agent terminating 
+** Last message in was {remove,1}
+** When Server state == #{amount => 10,key => <<"peche">>,resupplied => true,resupply_pid => <0.291.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:22:36 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.301.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5650
+  neighbours:
+2020-12-21 22:22:36 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.301.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"peche">>,10,<0.291.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:22:36 =ERROR REPORT====
+** Generic server banane_agent terminating 
+** Last message in was {remove,3}
+** When Server state == #{amount => 10,key => <<"banane">>,resupplied => true,resupply_pid => <0.291.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:22:36 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.297.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5665
+  neighbours:
+2020-12-21 22:22:36 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.297.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"banane">>,10,<0.291.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:22:36 =ERROR REPORT====
+** Generic server pomme_agent terminating 
+** Last message in was {remove,2}
+** When Server state == #{amount => 10,key => <<"pomme">>,resupplied => true,resupply_pid => <0.291.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:22:36 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.299.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5665
+  neighbours:
+2020-12-21 22:22:36 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.299.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"pomme">>,10,<0.291.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:23:43 =ERROR REPORT====
+** Generic server banane_agent terminating 
+** Last message in was {remove,1}
+** When Server state == #{amount => 10,key => <<"banane">>,resupplied => true,resupply_pid => <0.291.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:23:43 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.297.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5619
+  neighbours:
+2020-12-21 22:23:43 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.297.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"banane">>,10,<0.291.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:23:43 =ERROR REPORT====
+** Generic server poire_agent terminating 
+** Last message in was {remove,3}
+** When Server state == #{amount => 10,key => <<"poire">>,resupplied => true,resupply_pid => <0.291.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:23:43 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.300.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5645
+  neighbours:
+2020-12-21 22:23:43 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.300.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"poire">>,10,<0.291.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:23:43 =ERROR REPORT====
+** Generic server pomme_agent terminating 
+** Last message in was {remove,1}
+** When Server state == #{amount => 10,key => <<"pomme">>,resupplied => true,resupply_pid => <0.291.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:23:43 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.299.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5645
+  neighbours:
+2020-12-21 22:23:43 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.299.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"pomme">>,10,<0.291.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:23:43 =ERROR REPORT====
+** Generic server framboise_agent terminating 
+** Last message in was {remove,1}
+** When Server state == #{amount => 10,key => <<"framboise">>,resupplied => true,resupply_pid => <0.291.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:23:43 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.298.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5636
+  neighbours:
+2020-12-21 22:23:43 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.298.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"framboise">>,10,<0.291.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:23:43 =ERROR REPORT====
+** Generic server peche_agent terminating 
+** Last message in was {remove,2}
+** When Server state == #{amount => 10,key => <<"peche">>,resupplied => true,resupply_pid => <0.291.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:23:43 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.301.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5645
+  neighbours:
+2020-12-21 22:23:43 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.301.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"peche">>,10,<0.291.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:24:31 =ERROR REPORT====
+** Generic server framboise_agent terminating 
+** Last message in was {remove,2}
+** When Server state == #{amount => 10,key => <<"framboise">>,resupplied => true,resupply_pid => <0.291.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:24:31 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.298.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5662
+  neighbours:
+2020-12-21 22:24:31 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.298.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"framboise">>,10,<0.291.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:24:31 =ERROR REPORT====
+** Generic server peche_agent terminating 
+** Last message in was {remove,1}
+** When Server state == #{amount => 10,key => <<"peche">>,resupplied => true,resupply_pid => <0.291.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:24:31 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.301.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5657
+  neighbours:
+2020-12-21 22:24:31 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.301.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"peche">>,10,<0.291.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:26:22 =ERROR REPORT====
+** Generic server banane_agent terminating 
+** Last message in was {remove,1}
+** When Server state == #{amount => 10,key => <<"banane">>,resupplied => true,resupply_pid => <0.290.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:26:22 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.296.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.286.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.288.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5637
+  neighbours:
+2020-12-21 22:26:22 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.296.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"banane">>,10,<0.290.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:26:22 =ERROR REPORT====
+** Generic server poire_agent terminating 
+** Last message in was {remove,3}
+** When Server state == #{amount => 10,key => <<"poire">>,resupplied => true,resupply_pid => <0.290.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:26:22 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.299.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.286.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.288.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5657
+  neighbours:
+2020-12-21 22:26:22 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.299.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"poire">>,10,<0.290.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:26:22 =ERROR REPORT====
+** Generic server pomme_agent terminating 
+** Last message in was {remove,3}
+** When Server state == #{amount => 10,key => <<"pomme">>,resupplied => true,resupply_pid => <0.290.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:26:22 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.298.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.286.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.288.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5657
+  neighbours:
+2020-12-21 22:26:22 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.298.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"pomme">>,10,<0.290.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:26:22 =ERROR REPORT====
+** Generic server peche_agent terminating 
+** Last message in was {remove,2}
+** When Server state == #{amount => 10,key => <<"peche">>,resupplied => true,resupply_pid => <0.290.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:26:22 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.300.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.286.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.288.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5657
+  neighbours:
+2020-12-21 22:26:22 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.300.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"peche">>,10,<0.290.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:28:56 =ERROR REPORT====
+** Generic server poire_agent terminating 
+** Last message in was {remove,1}
+** When Server state == #{amount => 10,key => <<"poire">>,resupplied => true,resupply_pid => <0.291.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:28:56 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.300.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5658
+  neighbours:
+2020-12-21 22:28:56 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.300.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"poire">>,10,<0.291.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:28:56 =ERROR REPORT====
+** Generic server banane_agent terminating 
+** Last message in was {remove,2}
+** When Server state == #{amount => 10,key => <<"banane">>,resupplied => true,resupply_pid => <0.291.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:28:56 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.297.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5661
+  neighbours:
+2020-12-21 22:28:56 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.297.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"banane">>,10,<0.291.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:28:56 =ERROR REPORT====
+** Generic server pomme_agent terminating 
+** Last message in was {remove,1}
+** When Server state == #{amount => 10,key => <<"pomme">>,resupplied => true,resupply_pid => <0.291.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:28:56 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.299.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5651
+  neighbours:
+2020-12-21 22:28:56 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.299.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"pomme">>,10,<0.291.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:28:56 =ERROR REPORT====
+** Generic server peche_agent terminating 
+** Last message in was {remove,3}
+** When Server state == #{amount => 10,key => <<"peche">>,resupplied => true,resupply_pid => <0.291.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:28:56 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.301.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5651
+  neighbours:
+2020-12-21 22:28:56 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.301.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"peche">>,10,<0.291.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:29:46 =ERROR REPORT====
+** Generic server framboise_agent terminating 
+** Last message in was {remove,1}
+** When Server state == #{amount => 10,key => <<"framboise">>,resupplied => true,resupply_pid => <0.291.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:29:46 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.298.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5692
+  neighbours:
+2020-12-21 22:29:46 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.298.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"framboise">>,10,<0.291.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:29:46 =ERROR REPORT====
+** Generic server banane_agent terminating 
+** Last message in was {remove,2}
+** When Server state == #{amount => 10,key => <<"banane">>,resupplied => true,resupply_pid => <0.291.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:29:46 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.297.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5680
+  neighbours:
+2020-12-21 22:29:46 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.297.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"banane">>,10,<0.291.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:29:46 =ERROR REPORT====
+** Generic server pomme_agent terminating 
+** Last message in was {remove,1}
+** When Server state == #{amount => 10,key => <<"pomme">>,resupplied => true,resupply_pid => <0.291.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:29:46 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.299.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5680
+  neighbours:
+2020-12-21 22:29:46 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.299.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"pomme">>,10,<0.291.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 22:29:46 =ERROR REPORT====
+** Generic server poire_agent terminating 
+** Last message in was {remove,1}
+** When Server state == #{amount => 10,key => <<"poire">>,resupplied => true,resupply_pid => <0.291.0>}
+** Reason for termination ==
+** {bad_return_value,nil}
+** Client 'Elixir.CALC.OrderSupervisor' stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1024}]},{lists,foreach,2,[{file,"lists.erl"},{line,1342}]},{'Elixir.CALC.Order',work,1,[{file,"lib/order.ex"},{line,9}]},{'Elixir.DynamicSupervisor',start_child,3,[{file,"lib/dynamic_supervisor.ex"},{line,693}]},{'Elixir.DynamicSupervisor',handle_start_child,2,[{file,"lib/dynamic_supervisor.ex"},{line,679}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]}]
+2020-12-21 22:29:46 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.300.0>
+    registered_name: []
+    exception exit: {{bad_return_value,nil},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,800}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.289.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5680
+  neighbours:
+2020-12-21 22:29:46 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {bad_return_value,nil}
+     Offender:   [{pid,<0.300.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"poire">>,10,<0.291.0>]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-21 23:17:16 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.282.0>
+    registered_name: []
+    exception error: {{badmatch,2},[{'Elixir.CALC.Agent',init,1,[{file,"lib/agent.ex"},{line,11}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.274.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 698
+  neighbours:
+2020-12-21 23:17:16 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.283.0>
+    registered_name: []
+    exception error: {{badmatch,2},[{'Elixir.CALC.Agent',init,1,[{file,"lib/agent.ex"},{line,11}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.274.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 693
+  neighbours:
+2020-12-21 23:17:16 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.284.0>
+    registered_name: []
+    exception error: {{badmatch,2},[{'Elixir.CALC.Agent',init,1,[{file,"lib/agent.ex"},{line,11}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.274.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 692
+  neighbours:
+2020-12-21 23:17:16 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.285.0>
+    registered_name: []
+    exception error: {{badmatch,2},[{'Elixir.CALC.Agent',init,1,[{file,"lib/agent.ex"},{line,11}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.274.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 692
+  neighbours:
+2020-12-21 23:17:16 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.286.0>
+    registered_name: []
+    exception error: {{badmatch,2},[{'Elixir.CALC.Agent',init,1,[{file,"lib/agent.ex"},{line,11}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.274.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 692
+  neighbours:
