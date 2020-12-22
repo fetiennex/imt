@@ -8,7 +8,7 @@ defmodule CALC.Application do
   """
   def start(_type, _args) do
     #TODO: lancer les dynamicsupervisor. create_table creéera les process à appeler.
-    MyConfig.load(File.cwd! <> "/lib/config.json")
+    MyConfig.load(File.cwd! <> "/config.json")
     IO.puts(inspect MyConfig.get("rabbitmq_options"))
     node_name = get_node_name()
 
@@ -21,7 +21,7 @@ defmodule CALC.Application do
       result
     else
       File.rm(File.cwd! <> "/products")
-      {:ok, connection} = AMQP.Connection.open(MyConfig.get("rabbitmq_options")) #MyConfig.get("rabbitmq_options"))
+      {:ok, connection} = AMQP.Connection.open(MyConfig.get_rabbit_options) #MyConfig.get("rabbitmq_options"))
       {:ok, channel} = AMQP.Channel.open(connection)
       AMQP.Exchange.declare(channel, "calc_exchange",:direct)
 
@@ -59,7 +59,7 @@ defmodule CALC.Application do
 
   def create_table(resupply_pid,channel) do
 
-    raw_table = File.cwd! <> "/lib/products.json"
+    raw_table = File.cwd! <> "/products.json"
     |> File.read!
     |> Poison.decode!
 
@@ -74,7 +74,7 @@ defmodule CALC.Application do
 
   def generate_random_clients(num) do
 
-    raw_table = File.cwd! <> "/lib/products.json"
+    raw_table = File.cwd! <> "/products.json"
     |> File.read!
     |> Poison.decode!
     list_keys = Enum.map(raw_table["products"], fn %{"key"=>key, "amount"=>_amount} -> key end)
@@ -99,7 +99,7 @@ defmodule CALC.Application do
   end
 
   def generate_json_clients() do
-    raw_table = File.cwd! <> "/lib/clients.json"
+    raw_table = File.cwd! <> "/clients.json"
     |> File.read!
     |> Poison.decode!
 

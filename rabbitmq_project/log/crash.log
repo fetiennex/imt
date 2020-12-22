@@ -2976,3 +2976,20 @@ Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"a
     stack_size: 28
     reductions: 221
   neighbours:
+2020-12-22 22:38:15 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.277.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.CALC.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.File.Error',action => <<"read file">>,path => <<"/home/etienne/rabbitmq_projectproducts.json">>,reason => enoent},[{'Elixir.File','read!',1,[{file,"lib/file.ex"},{line,354}]},{'Elixir.CALC.Application',generate_random_clients,1,[{file,"lib/application.ex"},{line,78}]},{'Elixir.CALC.Application',start,2,[{file,"lib/application.ex"},{line,17}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.276.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.278.0>,normal}]
+    links: [<0.276.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 232
+  neighbours:
