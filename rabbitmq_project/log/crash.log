@@ -2891,3 +2891,88 @@ Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"a
     stack_size: 28
     reductions: 201
   neighbours:
+2020-12-22 21:32:18 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.316.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.CALC.Application',start,[normal,[]]},{'EXIT',{{badmatch,{error,econnrefused}},[{'Elixir.CALC.Application',start,2,[{file,"lib/application.ex"},{line,24}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.315.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.317.0>,normal}]
+    links: [<0.315.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 213
+  neighbours:
+2020-12-22 21:33:02 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.CALC.Application',start,[normal,[]]},{'EXIT',{{badmatch,{error,econnrefused}},[{'Elixir.CALC.Application',start,2,[{file,"lib/application.ex"},{line,24}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 213
+  neighbours:
+2020-12-22 21:33:05 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.CALC.Application',start,[normal,[]]},{'EXIT',{{badmatch,{error,econnrefused}},[{'Elixir.CALC.Application',start,2,[{file,"lib/application.ex"},{line,24}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 213
+  neighbours:
+2020-12-22 21:33:51 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.285.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.CALC.Application',start,[normal,[]]},{'EXIT',{{badmatch,{error,econnrefused}},[{'Elixir.CALC.Application',start,2,[{file,"lib/application.ex"},{line,24}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.284.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.286.0>,normal}]
+    links: [<0.284.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 221
+  neighbours:
+2020-12-22 21:35:21 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.285.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.CALC.Application',start,[normal,[]]},{'EXIT',{{badmatch,{error,econnrefused}},[{'Elixir.CALC.Application',start,2,[{file,"lib/application.ex"},{line,24}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.284.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.286.0>,normal}]
+    links: [<0.284.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 221
+  neighbours:

@@ -8,18 +8,20 @@ defmodule CALC.Application do
   """
   def start(_type, _args) do
     #TODO: lancer les dynamicsupervisor. create_table creéera les process à appeler.
+    MyConfig.load(File.cwd! <> "/lib/config.json")
+    IO.puts(inspect MyConfig.get("rabbitmq_options"))
     node_name = get_node_name()
 
     if node_name == "client" do
       opts = [strategy: :one_for_one, name: CALC.ClientSupervisor]
-      children = generate_random_clients(5)
+      children = generate_random_clients(MyConfig.get("rabbitmq_rand_clients_num"))
+      children = children ++ generate_json_clients()
       result = Supervisor.start_link(children, opts)
       IO.puts(inspect children)
       result
     else
       File.rm(File.cwd! <> "/products")
-
-      {:ok, connection} = AMQP.Connection.open(CALC.Constants.RabbitMQ.options)
+      {:ok, connection} = AMQP.Connection.open(MyConfig.get("rabbitmq_options")) #MyConfig.get("rabbitmq_options"))
       {:ok, channel} = AMQP.Channel.open(connection)
       AMQP.Exchange.declare(channel, "calc_exchange",:direct)
 
@@ -32,7 +34,7 @@ defmodule CALC.Application do
       result = Supervisor.start_link(children, opts)
       resupply_pid = :global.whereis_name(:resupply)
       create_table(resupply_pid,channel)
-      create_orders(5)
+      create_orders(MyConfig.get("order_num_orders"))
 
       result
     end
@@ -76,15 +78,15 @@ defmodule CALC.Application do
     |> File.read!
     |> Poison.decode!
     list_keys = Enum.map(raw_table["products"], fn %{"key"=>key, "amount"=>_amount} -> key end)
-    list_thresholds = ["resupplied" | CALC.Constants.RabbitMQ.thresholds()]
+    list_thresholds = ["resupplied" | MyConfig.get("rabbitmq_thresholds")]
     children = []
     children = for x <- 1..num do
 
-      rand_num_keys = Enum.random(1..CALC.Constants.RabbitMQ.max_keys_sub())
+      rand_num_keys = Enum.random(1..MyConfig.get("rabbitmq_max_keys_sub"))
       our_keys = Enum.take_random(list_keys,rand_num_keys)
       bindings = []
       bindings = for key <- our_keys do
-        rand_num_thresholds = Enum.random(1..CALC.Constants.RabbitMQ.max_thre_sub())
+        rand_num_thresholds = Enum.random(1..MyConfig.get("rabbitmq_max_thre_sub"))
         our_thresholds = Enum.take_random(list_thresholds,rand_num_thresholds)
         bindings = bindings ++ Enum.map(our_thresholds, fn thre -> "#{key}.#{thre}" end )
       end
@@ -94,5 +96,15 @@ defmodule CALC.Application do
         start: {CALC.Client, :init, ["client_#{x}",flat_bindings]}
         }
     end
+  end
+
+  def generate_json_clients() do
+    raw_table = File.cwd! <> "/lib/clients.json"
+    |> File.read!
+    |> Poison.decode!
+
+    children = Enum.map(raw_table["clients"], fn %{"name"=>name, "bindings" => bindings} -> %{id: "#{name}", start: {CALC.Client, :init, ["#{name}",bindings]}
+    } end )
+
   end
 end

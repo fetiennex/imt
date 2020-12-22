@@ -621,3 +621,38 @@
 2020-12-22 20:06:54.415 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
 2020-12-22 20:06:54.416 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
 2020-12-22 20:06:54.429 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 20:33:39.394 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 20:33:39.396 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 20:33:46.527 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 20:33:46.529 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 20:33:46.542 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 21:32:13.400 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 21:32:13.401 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 21:32:18.430 [error] <0.316.0>@Elixir.CALC.Application:start:24 CRASH REPORT Process <0.316.0> with 0 neighbours exited with reason: no match of right hand value {error,econnrefused} in 'Elixir.CALC.Application':start/2 line 24 in application_master:init/4 line 138
+2020-12-22 21:33:01.978 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 21:33:01.979 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 21:33:02.004 [error] <0.271.0>@Elixir.CALC.Application:start:24 CRASH REPORT Process <0.271.0> with 0 neighbours exited with reason: no match of right hand value {error,econnrefused} in 'Elixir.CALC.Application':start/2 line 24 in application_master:init/4 line 138
+2020-12-22 21:33:05.630 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 21:33:05.631 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 21:33:05.657 [error] <0.271.0>@Elixir.CALC.Application:start:24 CRASH REPORT Process <0.271.0> with 0 neighbours exited with reason: no match of right hand value {error,econnrefused} in 'Elixir.CALC.Application':start/2 line 24 in application_master:init/4 line 138
+2020-12-22 21:33:51.238 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 21:33:51.239 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 21:33:51.264 [error] <0.285.0>@Elixir.CALC.Application:start:24 CRASH REPORT Process <0.285.0> with 0 neighbours exited with reason: no match of right hand value {error,econnrefused} in 'Elixir.CALC.Application':start/2 line 24 in application_master:init/4 line 138
+2020-12-22 21:35:21.828 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 21:35:21.829 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 21:35:21.856 [error] <0.285.0>@Elixir.CALC.Application:start:24 CRASH REPORT Process <0.285.0> with 0 neighbours exited with reason: no match of right hand value {error,econnrefused} in 'Elixir.CALC.Application':start/2 line 24 in application_master:init/4 line 138
+2020-12-22 21:41:29.245 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 21:41:29.247 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 21:41:36.609 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 21:41:36.611 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 21:41:36.628 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 21:44:52.421 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 21:44:52.422 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 21:44:54.459 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 21:44:54.460 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 21:44:54.475 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 21:46:25.919 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 21:46:25.920 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 21:46:27.811 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 21:46:27.812 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 21:46:27.828 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'

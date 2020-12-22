@@ -6,6 +6,7 @@ defmodule CALC.Constants do
   end
 
   defmodule Order do
+    def num_orders, do: 5
     def max_pids, do: 5
     def max_items, do: 3
     def sleep_time, do: 1000
@@ -20,6 +21,7 @@ defmodule CALC.Constants do
     def thresholds, do: [0, 1, 5, 10, 30]
     def max_keys_sub, do: 1
     def max_thre_sub, do: 2
+    def rand_clients_num, do: 5
 
   end
 

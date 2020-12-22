@@ -23,11 +23,11 @@ defmodule CALC.Agent do
 
   def handle_call({:remove,rem_amount},_from,%{key: key, amount: amount, resupply_pid: resupply_pid, resupplied: resupplied, channel: channel}) do
     #TODO : get & modify table
-    case amount - rem_amount > 0 do
+    case amount - rem_amount >= 0 do
       true ->
         :dets.insert(:products,{key,amount-rem_amount})
         Logger.info("removed #{rem_amount} #{key}")
-        if amount - rem_amount <= CALC.Constants.Agent.min do
+        if amount - rem_amount <= MyConfig.get("agent_min_before_resupply") do
           case resupplied do
             true ->
               GenServer.cast(resupply_pid,{:resupply,self()})
@@ -59,7 +59,7 @@ defmodule CALC.Agent do
         AMQP.Basic.publish(channel,"calc_exchange","#{key}.#{thre}", "#{key} has #{thre} left")
         Logger.info("published on #{key}.#{thre}")
       end
-    end,CALC.Constants.RabbitMQ.thresholds)
+    end,MyConfig.get("rabbitmq_thresholds"))
 
     {:noreply,%{key: key, amount: amount,resupply_pid: resupply_pid, resupplied: resupplied, channel: channel}}
   end

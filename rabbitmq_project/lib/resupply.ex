@@ -19,13 +19,13 @@ defmodule CALC.Resupply do
 
   def handle_cast(:go,state) do
     :lists.foreach(fn pid ->
-      GenServer.cast(pid, {:add,CALC.Constants.Resupply.add_number})
+      GenServer.cast(pid, {:add,MyConfig.get("resuply_add_number")})
     end, state)
     {:noreply,[]}
   end
 
   def wait_and_go(parent_pid) do
-    :timer.sleep(CALC.Constants.Resupply.sleep_time)
+    :timer.sleep(MyConfig.get("resupply_sleep_time"))
     Logger.info("resupplying")
     GenServer.cast(parent_pid,:go)
     wait_and_go(parent_pid)
