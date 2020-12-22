@@ -1,0 +1,10 @@
+{   
+    "clients" : [
+        {"name":"Toto", "bindings" : ["peche.5", "peche.10"]},
+        {"name":"Tutu", "bindings" : ["poire.5", "peche.resupplied"]},
+        {"name":"Tata", "bindings" : ["pomme.1", "framboise.10"]}
+        
+    ]
+
+    
+}

@@ -1,0 +1,10 @@
+{
+    "products": [
+        {"key":"banane","amount":10},
+        {"key":"framboise","amount":10},
+        {"key":"pomme","amount":10},
+        {"key":"poire","amount":10},
+        {"key":"peche","amount":10}
+    ]
+    
+}

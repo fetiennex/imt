@@ -1,0 +1,14 @@
+{
+    "resuply_add_number": 40,
+    "resupply_sleep_time": 100,
+    "order_num_orders": 10,
+    "order_max_pids": 5,
+    "order_max_items": 5,
+    "order_sleep_time": 100,
+    "agent_min_before_resupply":3,
+    "rabbitmq_options":["172.17.0.2",5672],
+    "rabbitmq_thresholds": [0, 1, 5, 10, 30],
+    "rabbitmq_max_keys_sub": 1,
+    "rabbitmq_max_thre_sub": 2,
+    "rabbitmq_rand_clients_num": 5
+}
