@@ -8,14 +8,16 @@ The application is separated in two nodes:
 ## Installation
 
 docker run -d --hostname my-rabbit --name some-rabbit rabbitmq:3
+
 mix deps.get
 
 to run the server node : iex -S mix
+
 to run the client node : iex --sname client -S mix
 
-To modify parameters, you have to edit the json file config.json . You will be able to change the stress on the database (add orders, add resupply quantity) and manage the clients (generate more clients, with more or less subscription and thresholds).
-
 ## Configuration
+
+To modify parameters, you have to edit the json file config.json . You will be able to change the stress on the database (add orders, add resupply quantity) and manage the clients (generate more clients, with more or less subscription and thresholds).
 
     "resuply_add_number": Quantity of items to add per resupply
     "resupply_sleep_time": Time the resupplier sleeps between resupplies
@@ -30,5 +32,5 @@ To modify parameters, you have to edit the json file config.json . You will be a
     "rabbitmq_max_thre_sub": Number max of thresholds a generated client can have per item
     "rabbitmq_rand_clients_num": Number of clients to generate randomly
     
-    To test clients, you can edit clients.json and create custom clients. You can set the number of generated clients to 0 if you want no other client.
-    You can also change the starting database of products in products.json.
+To test clients, you can edit clients.json and create custom clients. You can set the number of generated clients to 0 if you want no other client.
+You can also change the starting database of products in products.json.
