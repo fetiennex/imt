@@ -1,21 +1,18 @@
 # RabbitmqProject
 
-**TODO: Add description**
+Project simulating a database of items being ordered and resupplied, triggering notifications when the stock reaches certain quantities, aiming at showing the use of RabbitMQ.
+The application is separated in two nodes:
+* Server node, launched with iex -S mix : manages the Orders supervision tree, the Agents supervision tree and the Resupplier process. Is in charge of the database.
+* Clients node, launched with iex --sname client -S mix : manages the Clients, processes connecting to the rabbitmq exchange and receiving notifications.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `rabbitmq_project` to your list of dependencies in `mix.exs`:
+mix deps.get
 
-```elixir
-def deps do
-  [
-    {:rabbitmq_project, "~> 0.1.0"}
-  ]
-end
-```
+to run the server node : iex -S mix
+to run the client node : iex --sname client -S mix
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/rabbitmq_project](https://hexdocs.pm/rabbitmq_project).
+To modify parameters, for now you have to efit the file lib/constants.ex . You will be able to change the stress on the database (add orders, add resupply quantity) and manage the clients (generate more clients, with more or less subscription and thresholds).
+
+Soon : edit a json file, + clients.json for creating custom clients
 
