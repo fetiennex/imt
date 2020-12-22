@@ -18,7 +18,7 @@ defmodule CALC.Constants do
   defmodule RabbitMQ do
     def options, do: [host: "172.17.0.2", port: 5672]
     def thresholds, do: [0, 1, 5, 10, 30]
-    def max_keys_sub, do: 3
+    def max_keys_sub, do: 1
     def max_thre_sub, do: 2
 
   end

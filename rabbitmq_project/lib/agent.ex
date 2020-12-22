@@ -47,7 +47,7 @@ defmodule CALC.Agent do
   def handle_continue({:check_notif,prev_amount},%{key: key, amount: amount, resupply_pid: resupply_pid, resupplied: resupplied, channel: channel}) do
     #TODO : map on the notif thresholds and determine those that are affected
     # then send rabbitmq message
-    if prev_amount == 0 && amount > 0 do
+    if prev_amount < amount do
       #RABBITMQ: Resupplied
       AMQP.Basic.publish(channel,"calc_exchange","#{key}.resupplied", "#{key} was resupplied")
       Logger.info("published on #{key}.resupplied")

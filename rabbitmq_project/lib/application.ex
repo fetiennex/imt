@@ -13,8 +13,9 @@ defmodule CALC.Application do
     if node_name == "client" do
       opts = [strategy: :one_for_one, name: CALC.ClientSupervisor]
       children = generate_random_clients(5)
+      result = Supervisor.start_link(children, opts)
       IO.puts(inspect children)
-      Supervisor.start_link(children, opts)
+      result
     else
       File.rm(File.cwd! <> "/products")
 

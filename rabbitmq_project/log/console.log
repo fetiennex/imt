@@ -534,3 +534,90 @@
 2020-12-22 18:16:32.777 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
 2020-12-22 18:16:59.644 [info] <0.44.0> Application logger started on node nonode@nohost
 2020-12-22 18:16:59.645 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 18:40:59.479 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 18:40:59.480 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 18:42:03.567 [error] <0.334.0> gen_server <0.334.0> terminated with reason: socket_closed_unexpectedly
+2020-12-22 18:42:03.568 [error] <0.337.0> gen_server <0.337.0> terminated with reason: socket_closed_unexpectedly
+2020-12-22 18:42:03.568 [error] <0.340.0> gen_server <0.340.0> terminated with reason: socket_closed_unexpectedly
+2020-12-22 18:42:03.568 [error] <0.331.0> gen_server <0.331.0> terminated with reason: socket_closed_unexpectedly
+2020-12-22 18:42:03.569 [error] <0.328.0> gen_server <0.328.0> terminated with reason: socket_closed_unexpectedly
+2020-12-22 18:42:03.569 [error] <0.328.0> CRASH REPORT Process <0.328.0> with 0 neighbours exited with reason: socket_closed_unexpectedly in gen_server:handle_common_reply/8 line 796
+2020-12-22 18:42:03.570 [error] <0.337.0> CRASH REPORT Process <0.337.0> with 0 neighbours exited with reason: socket_closed_unexpectedly in gen_server:handle_common_reply/8 line 796
+2020-12-22 18:42:03.570 [error] <0.334.0> CRASH REPORT Process <0.334.0> with 0 neighbours exited with reason: socket_closed_unexpectedly in gen_server:handle_common_reply/8 line 796
+2020-12-22 18:42:03.570 [error] <0.331.0> CRASH REPORT Process <0.331.0> with 0 neighbours exited with reason: socket_closed_unexpectedly in gen_server:handle_common_reply/8 line 796
+2020-12-22 18:42:03.570 [error] <0.340.0> CRASH REPORT Process <0.340.0> with 0 neighbours exited with reason: socket_closed_unexpectedly in gen_server:handle_common_reply/8 line 796
+2020-12-22 18:42:03.570 [error] <0.325.0> Supervisor {<0.325.0>,amqp_connection_sup} had child connection started with amqp_gen_connection:start_link(<0.327.0>, {amqp_params_network,<<"guest">>,{plaintext,<<"guest">>},<<"/">>,"172.17.0.2",5672,0,0,10,50000,...}) at <0.328.0> exit with reason socket_closed_unexpectedly in context child_terminated
+2020-12-22 18:42:03.570 [error] <0.329.0> Supervisor {<0.329.0>,amqp_connection_sup} had child connection started with amqp_gen_connection:start_link(<0.330.0>, {amqp_params_network,<<"guest">>,{plaintext,<<"guest">>},<<"/">>,"172.17.0.2",5672,0,0,10,50000,...}) at <0.331.0> exit with reason socket_closed_unexpectedly in context child_terminated
+2020-12-22 18:42:03.570 [error] <0.325.0> Supervisor {<0.325.0>,amqp_connection_sup} had child connection started with amqp_gen_connection:start_link(<0.327.0>, {amqp_params_network,<<"guest">>,{plaintext,<<"guest">>},<<"/">>,"172.17.0.2",5672,0,0,10,50000,...}) at <0.328.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-12-22 18:42:03.571 [error] <0.329.0> Supervisor {<0.329.0>,amqp_connection_sup} had child connection started with amqp_gen_connection:start_link(<0.330.0>, {amqp_params_network,<<"guest">>,{plaintext,<<"guest">>},<<"/">>,"172.17.0.2",5672,0,0,10,50000,...}) at <0.331.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-12-22 18:42:03.571 [error] <0.335.0> Supervisor {<0.335.0>,amqp_connection_sup} had child connection started with amqp_gen_connection:start_link(<0.336.0>, {amqp_params_network,<<"guest">>,{plaintext,<<"guest">>},<<"/">>,"172.17.0.2",5672,0,0,10,50000,...}) at <0.337.0> exit with reason socket_closed_unexpectedly in context child_terminated
+2020-12-22 18:42:03.571 [error] <0.335.0> Supervisor {<0.335.0>,amqp_connection_sup} had child connection started with amqp_gen_connection:start_link(<0.336.0>, {amqp_params_network,<<"guest">>,{plaintext,<<"guest">>},<<"/">>,"172.17.0.2",5672,0,0,10,50000,...}) at <0.337.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-12-22 18:42:03.571 [error] <0.338.0> Supervisor {<0.338.0>,amqp_connection_sup} had child connection started with amqp_gen_connection:start_link(<0.339.0>, {amqp_params_network,<<"guest">>,{plaintext,<<"guest">>},<<"/">>,"172.17.0.2",5672,0,0,10,50000,...}) at <0.340.0> exit with reason socket_closed_unexpectedly in context child_terminated
+2020-12-22 18:42:03.571 [error] <0.338.0> Supervisor {<0.338.0>,amqp_connection_sup} had child connection started with amqp_gen_connection:start_link(<0.339.0>, {amqp_params_network,<<"guest">>,{plaintext,<<"guest">>},<<"/">>,"172.17.0.2",5672,0,0,10,50000,...}) at <0.340.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-12-22 18:42:03.571 [error] <0.332.0> Supervisor {<0.332.0>,amqp_connection_sup} had child connection started with amqp_gen_connection:start_link(<0.333.0>, {amqp_params_network,<<"guest">>,{plaintext,<<"guest">>},<<"/">>,"172.17.0.2",5672,0,0,10,50000,...}) at <0.334.0> exit with reason socket_closed_unexpectedly in context child_terminated
+2020-12-22 18:42:03.572 [error] <0.332.0> Supervisor {<0.332.0>,amqp_connection_sup} had child connection started with amqp_gen_connection:start_link(<0.333.0>, {amqp_params_network,<<"guest">>,{plaintext,<<"guest">>},<<"/">>,"172.17.0.2",5672,0,0,10,50000,...}) at <0.334.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-12-22 18:42:15.172 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 18:42:15.173 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 18:42:15.187 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 18:43:35.419 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 18:43:35.420 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 18:43:35.432 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 18:45:52.680 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 18:45:52.681 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 18:45:52.694 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 18:50:44.147 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 18:50:44.148 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 18:50:44.159 [error] <0.291.0>@Elixir.CALC.Application:start CRASH REPORT Process <0.291.0> with 0 neighbours exited with reason: bad return value ok from 'Elixir.CALC.Application':start(normal, []) in application_master:init/4 line 138
+2020-12-22 18:51:23.494 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 18:51:23.496 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 18:51:23.508 [error] <0.291.0>@Elixir.CALC.Application:start CRASH REPORT Process <0.291.0> with 0 neighbours exited with reason: bad return value ok from 'Elixir.CALC.Application':start(normal, []) in application_master:init/4 line 138
+2020-12-22 18:51:44.449 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 18:51:44.451 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 18:51:44.459 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 18:52:57.128 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 18:52:57.129 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 18:54:57.600 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 18:54:57.602 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 18:55:03.383 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 18:55:03.384 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 18:55:03.399 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 19:00:01.654 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 19:00:01.655 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 19:00:01.667 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 19:01:09.231 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 19:01:09.233 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 19:09:35.793 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 19:09:35.795 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 19:09:35.807 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 19:09:43.111 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 19:09:43.112 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 19:20:21.822 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 19:20:21.824 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 19:20:21.837 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 19:21:01.734 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 19:21:01.735 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 19:21:07.646 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 19:21:07.648 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 19:21:07.660 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 19:21:33.502 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 19:21:33.503 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 19:21:33.515 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 19:45:04.722 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 19:45:04.724 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 19:46:16.455 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 19:46:16.456 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 19:46:20.659 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 19:46:20.660 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 19:48:05.885 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 19:48:05.886 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 20:03:34.450 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 20:03:34.451 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 20:03:41.523 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 20:03:41.524 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 20:04:17.336 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 20:04:17.337 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 20:06:48.979 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 20:06:48.981 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 20:06:54.415 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 20:06:54.416 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 20:06:54.429 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
