@@ -347,3 +347,190 @@
 2020-12-21 23:45:23.533 [info] <0.44.0> Application poison started on node nonode@nohost
 2020-12-21 23:49:26.020 [info] <0.44.0> Application logger started on node nonode@nohost
 2020-12-21 23:49:26.021 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 14:30:31.052 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 14:30:31.053 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 14:32:18.736 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 14:32:18.737 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 14:32:18.804 [error] <0.316.0>@Elixir.CALC.Agent:handle_continue:47 gen_server peche_agent terminated with reason: no function clause matching 'Elixir.CALC.Agent':handle_continue({check_notif,10}, #{amount => 8,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',...},...},...}) line 47
+2020-12-22 14:32:18.804 [error] <0.313.0>@Elixir.CALC.Agent:handle_continue:47 gen_server framboise_agent terminated with reason: no function clause matching 'Elixir.CALC.Agent':handle_continue({check_notif,10}, #{amount => 9,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',...},...},...}) line 47
+2020-12-22 14:32:18.804 [error] <0.312.0>@Elixir.CALC.Agent:handle_continue:47 gen_server banane_agent terminated with reason: no function clause matching 'Elixir.CALC.Agent':handle_continue({check_notif,10}, #{amount => 9,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',...},...},...}) line 47
+2020-12-22 14:32:18.804 [error] <0.315.0>@Elixir.CALC.Agent:handle_continue:47 gen_server poire_agent terminated with reason: no function clause matching 'Elixir.CALC.Agent':handle_continue({check_notif,10}, #{amount => 9,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',...},...},...}) line 47
+2020-12-22 14:32:18.804 [error] <0.315.0>@Elixir.CALC.Agent:handle_continue:47 CRASH REPORT Process <0.315.0> with 0 neighbours crashed with reason: no function clause matching 'Elixir.CALC.Agent':handle_continue({check_notif,10}, #{amount => 9,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',...},...},...}) line 47
+2020-12-22 14:32:18.804 [error] <0.316.0>@Elixir.CALC.Agent:handle_continue:47 CRASH REPORT Process <0.316.0> with 0 neighbours crashed with reason: no function clause matching 'Elixir.CALC.Agent':handle_continue({check_notif,10}, #{amount => 8,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',...},...},...}) line 47
+2020-12-22 14:32:18.804 [error] <0.312.0>@Elixir.CALC.Agent:handle_continue:47 CRASH REPORT Process <0.312.0> with 0 neighbours crashed with reason: no function clause matching 'Elixir.CALC.Agent':handle_continue({check_notif,10}, #{amount => 9,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',...},...},...}) line 47
+2020-12-22 14:32:18.804 [error] <0.313.0>@Elixir.CALC.Agent:handle_continue:47 CRASH REPORT Process <0.313.0> with 0 neighbours crashed with reason: no function clause matching 'Elixir.CALC.Agent':handle_continue({check_notif,10}, #{amount => 9,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',...},...},...}) line 47
+2020-12-22 14:32:18.805 [error] <0.304.0>@Elixir.CALC.Agent:handle_continue:47 Supervisor 'Elixir.CALC.AgentSupervisor' had child undefined started with 'Elixir.CALC.Agent':start(<<"poire">>, 10, <0.306.0>, #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},...}) at <0.315.0> exit with reason no function clause matching 'Elixir.CALC.Agent':handle_continue({check_notif,10}, #{amount => 9,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',...},...},...}) line 47 in context child_terminated
+2020-12-22 14:32:18.805 [error] <0.304.0>@Elixir.CALC.Agent:handle_continue:47 Supervisor 'Elixir.CALC.AgentSupervisor' had child undefined started with 'Elixir.CALC.Agent':start(<<"peche">>, 10, <0.306.0>, #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},...}) at <0.316.0> exit with reason no function clause matching 'Elixir.CALC.Agent':handle_continue({check_notif,10}, #{amount => 8,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',...},...},...}) line 47 in context child_terminated
+2020-12-22 14:32:18.805 [error] <0.304.0>@Elixir.CALC.Agent:handle_continue:47 Supervisor 'Elixir.CALC.AgentSupervisor' had child undefined started with 'Elixir.CALC.Agent':start(<<"banane">>, 10, <0.306.0>, #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},...}) at <0.312.0> exit with reason no function clause matching 'Elixir.CALC.Agent':handle_continue({check_notif,10}, #{amount => 9,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',...},...},...}) line 47 in context child_terminated
+2020-12-22 14:32:18.805 [error] <0.304.0>@Elixir.CALC.Agent:handle_continue:47 Supervisor 'Elixir.CALC.AgentSupervisor' had child undefined started with 'Elixir.CALC.Agent':start(<<"framboise">>, 10, <0.306.0>, #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},...}) at <0.313.0> exit with reason no function clause matching 'Elixir.CALC.Agent':handle_continue({check_notif,10}, #{amount => 9,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',...},...},...}) line 47 in context child_terminated
+2020-12-22 14:32:19.710 [error] <0.314.0>@Elixir.CALC.Agent:handle_continue:47 gen_server pomme_agent terminated with reason: no function clause matching 'Elixir.CALC.Agent':handle_continue({check_notif,10}, #{amount => 8,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',...},...},...}) line 47
+2020-12-22 14:32:19.711 [error] <0.314.0>@Elixir.CALC.Agent:handle_continue:47 CRASH REPORT Process <0.314.0> with 0 neighbours crashed with reason: no function clause matching 'Elixir.CALC.Agent':handle_continue({check_notif,10}, #{amount => 8,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',...},...},...}) line 47
+2020-12-22 14:32:19.711 [error] <0.304.0>@Elixir.CALC.Agent:handle_continue:47 Supervisor 'Elixir.CALC.AgentSupervisor' had child undefined started with 'Elixir.CALC.Agent':start(<<"pomme">>, 10, <0.306.0>, #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},...}) at <0.314.0> exit with reason no function clause matching 'Elixir.CALC.Agent':handle_continue({check_notif,10}, #{amount => 8,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',...},...},...}) line 47 in context child_terminated
+2020-12-22 14:32:19.711 [info] <0.44.0> Application calc started on node nonode@nohost
+2020-12-22 14:34:48.192 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 14:34:48.193 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 14:35:59.123 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 14:35:59.124 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 14:36:59.621 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 14:36:59.622 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 14:50:00.744 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-12-22 14:50:00.744 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-12-22 14:50:00.744 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-12-22 14:50:00.744 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-12-22 14:50:00.750 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-12-22 14:50:00.750 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-12-22 14:50:00.751 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-12-22 14:52:07.271 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 14:52:07.273 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 14:54:07.172 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 14:54:07.173 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 15:19:17.952 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 15:19:17.953 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 15:20:21.258 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 15:20:21.259 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 15:20:39.275 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 15:20:39.277 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 15:24:18.471 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 15:24:18.474 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 15:24:18.523 [error] <0.294.0> Supervisor 'Elixir.CALC.ClientSupervisor' had child <<"clientTest">> started with 'Elixir.CALC.Client':init(<<"toto">>, [<<"peche.5">>]) at undefined exit with reason {'EXIT',{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'calc_exchange' in vhost '/'">>}},{gen_server,call,[<0.308.0>,{subscribe,{'basic.consume',0,<<"calc_exchange">>,<<>>,false,true,false,false,[]},<0.310.0>},60000]}}} in context start_error
+2020-12-22 15:24:18.523 [error] <0.292.0> CRASH REPORT Process <0.292.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,<<"clientTest">>,{'EXIT',{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'calc_exchange' in vhost '/'">>}},{gen_server,call,[<0.308.0>,{subscribe,{'basic.consume',0,<<"calc_exchange">>,<<>>,false,true,false,false,[]},<0.310.0>},60000]}}}}},{'Elixir.CALC.Application',start,[normal,[]]}} in application_master:init/4 line 138
+2020-12-22 15:24:26.739 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 15:24:26.741 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 15:24:29.627 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 15:24:29.628 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 15:24:29.673 [error] <0.279.0> Supervisor 'Elixir.CALC.ClientSupervisor' had child <<"clientTest">> started with 'Elixir.CALC.Client':init(<<"toto">>, [<<"peche.5">>]) at undefined exit with reason {'EXIT',{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'calc_exchange' in vhost '/'">>}},{gen_server,call,[<0.293.0>,{subscribe,{'basic.consume',0,<<"calc_exchange">>,<<>>,false,true,false,false,[]},<0.295.0>},60000]}}} in context start_error
+2020-12-22 15:25:09.833 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 15:25:09.834 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 15:25:12.369 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 15:25:12.371 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 15:28:04.515 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 15:28:04.516 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 15:28:26.220 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 15:28:26.221 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 16:11:25.111 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 16:11:25.113 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 16:11:31.171 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:11:31.172 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:11:31.181 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:12:25.521 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:12:25.523 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:12:25.531 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:14:22.479 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:14:22.481 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:14:22.491 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:14:54.560 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:14:54.562 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:14:54.571 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:16:15.270 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:16:15.272 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:16:15.282 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:16:47.831 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:16:47.833 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:16:47.893 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:22:34.167 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:22:34.174 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:22:34.189 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:23:21.446 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:23:21.448 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:23:21.458 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:24:30.002 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:24:30.003 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:24:30.013 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:26:41.691 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:26:41.692 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:26:41.702 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:30:35.627 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:30:35.629 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:30:35.639 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:32:09.814 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:32:09.816 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:32:09.826 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:32:55.971 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:32:55.972 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:32:55.988 [error] <0.291.0> CRASH REPORT Process <0.291.0> with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module :ok was given as a child to a supervisor but it does not exist.">>} in 'Elixir.Supervisor':init_child/1 line 631 in application_master:init/4 line 138
+2020-12-22 16:36:03.098 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:36:03.100 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:36:03.115 [error] <0.291.0> CRASH REPORT Process <0.291.0> with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module :ok was given as a child to a supervisor but it does not exist.">>} in 'Elixir.Supervisor':init_child/1 line 631 in application_master:init/4 line 138
+2020-12-22 16:38:11.383 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:38:11.385 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:38:11.401 [error] <0.291.0> CRASH REPORT Process <0.291.0> with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module :ok was given as a child to a supervisor but it does not exist.">>} in 'Elixir.Supervisor':init_child/1 line 631 in application_master:init/4 line 138
+2020-12-22 16:40:26.171 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:40:26.173 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:40:26.186 [error] <0.293.0>@ok:init CRASH REPORT Process <0.293.0> with 0 neighbours crashed with reason: call to undefined function ok:init([{strategy,one_for_one},{name,'Elixir.CALC.ClientSupervisor'}])
+2020-12-22 16:40:26.186 [error] <0.291.0> CRASH REPORT Process <0.291.0> with 0 neighbours exited with reason: {{undef,[{ok,init,[[{strategy,one_for_one},{name,'Elixir.CALC.ClientSupervisor'}]],[]},{supervisor,init,1,[{file,"supervisor.erl"},{line,301}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.CALC.Application',start,[normal,[]]}} in application_master:init/4 line 138
+2020-12-22 16:41:06.091 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:41:06.093 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:41:06.104 [error] <0.291.0> CRASH REPORT Process <0.291.0> with 0 neighbours exited with reason: {{undef,[{ok,init,[[{strategy,one_for_one},{name,'Elixir.CALC.ClientSupervisor'}]],[]},{supervisor,init,1,[{file,"supervisor.erl"},{line,301}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.CALC.Application',start,[normal,[]]}} in application_master:init/4 line 138
+2020-12-22 16:41:06.104 [error] <0.293.0>@ok:init CRASH REPORT Process <0.293.0> with 0 neighbours crashed with reason: call to undefined function ok:init([{strategy,one_for_one},{name,'Elixir.CALC.ClientSupervisor'}])
+2020-12-22 16:45:16.547 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:45:16.549 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:45:16.561 [error] <0.293.0>@ok:init CRASH REPORT Process <0.293.0> with 0 neighbours crashed with reason: call to undefined function ok:init([{strategy,one_for_one},{name,'Elixir.CALC.ClientSupervisor'}])
+2020-12-22 16:45:16.562 [error] <0.291.0> CRASH REPORT Process <0.291.0> with 0 neighbours exited with reason: {{undef,[{ok,init,[[{strategy,one_for_one},{name,'Elixir.CALC.ClientSupervisor'}]],[]},{supervisor,init,1,[{file,"supervisor.erl"},{line,301}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.CALC.Application',start,[normal,[]]}} in application_master:init/4 line 138
+2020-12-22 16:45:45.984 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:45:45.986 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:47:09.786 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:47:09.789 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:47:31.890 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 16:47:31.892 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 16:49:12.497 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:49:12.499 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:51:12.328 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:51:12.330 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:52:18.335 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:52:18.337 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:53:37.303 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:53:37.305 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 16:59:11.082 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 16:59:11.083 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 17:01:05.328 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 17:01:05.329 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 17:03:56.123 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 17:03:56.124 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 17:05:32.499 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 17:05:32.501 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 17:17:07.919 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 17:17:07.921 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 17:17:08.069 [error] <0.299.0> Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-e7mRKZCZ5lzAvRQJ3VS15Q">>}}
+2020-12-22 17:17:08.070 [error] <0.299.0> Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-ZDWJ4j_Y1F_jNcpVnKPJ7Q">>}}
+2020-12-22 17:17:08.070 [error] <0.299.0> Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-NULE9VqCrk0lObFBA0H2hg">>}}
+2020-12-22 17:17:08.070 [error] <0.299.0> Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-7ukL10Qrmn10b-78j9w4Tg">>}}
+2020-12-22 17:17:08.070 [error] <0.299.0> Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-VWRuHMr5N0xLCjDOjzCJMw">>}}
+2020-12-22 17:17:08.071 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 17:25:43.175 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 17:25:43.176 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 17:25:43.351 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 17:25:43.351 [error] <0.294.0> Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-rgcjzJ6QmtCIuKnKPPXEWw">>}}
+2020-12-22 17:25:43.351 [error] <0.294.0> Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-LzP_YmXhAg914_QIQZnM2Q">>}}
+2020-12-22 17:25:43.351 [error] <0.294.0> Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-lrWMukaTLbnkCM6dspy8hQ">>}}
+2020-12-22 17:25:43.351 [error] <0.294.0> Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-H-fuq4ATEAldHhqUZ2pQuQ">>}}
+2020-12-22 17:25:43.351 [error] <0.294.0> Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-w1x7xTBhqlH2u1WCpwxbYw">>}}
+2020-12-22 17:27:20.155 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 17:27:20.156 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 17:27:20.337 [error] <0.294.0> Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-n8onPFjX_NV93E1nrL1SfA">>}}
+2020-12-22 17:27:20.337 [error] <0.294.0> Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-x8BKSY2A7FPTV5HTggl7LQ">>}}
+2020-12-22 17:27:20.337 [error] <0.294.0> Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-fpF5-yZftk1edZ0V2qgrZg">>}}
+2020-12-22 17:27:20.338 [error] <0.294.0> Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-ZIDiIC3tlyDcHi4MtJsJkw">>}}
+2020-12-22 17:27:20.338 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 17:27:20.338 [error] <0.294.0> Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-v83aa3mCvnRiv7F2uEZ14Q">>}}
+2020-12-22 17:28:26.024 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 17:28:26.025 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 17:28:26.092 [error] <0.294.0> Supervisor 'Elixir.CALC.ClientSupervisor' had child <<"1">> started with 'Elixir.CALC.Client':init(<<"client_1">>, [<<"framboise.0">>]) at undefined exit with reason {'EXIT',{{badmatch,<0.311.0>},[{'Elixir.CALC.Client',init,2,[{file,"lib/client.ex"},{line,15}]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,385}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,371}]},{supervisor,'-start_children/2-fun-0-',3,[{file,"supervisor.erl"},{line,355}]},{supervisor,children_map,4,[{file,"supervisor.erl"},{line,1171}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,321}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,...}]},...]}} in context start_error
+2020-12-22 17:28:26.092 [error] <0.292.0> CRASH REPORT Process <0.292.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,<<"1">>,{'EXIT',{{badmatch,<0.311.0>},[{'Elixir.CALC.Client',init,2,[{file,"lib/client.ex"},{line,15}]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,385}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,371}]},{supervisor,'-start_children/2-fun-0-',3,[{file,"supervisor.erl"},{line,355}]},{supervisor,children_map,4,[{file,"supervisor.erl"},{line,1171}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,321}]},{gen_server,...},...]}}}},...} in application_master:init/4 line 138
+2020-12-22 17:29:26.028 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 17:29:26.029 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 17:29:26.251 [error] <0.294.0> Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-3t75e0uGpHbL7fLwMeKclg">>}}
+2020-12-22 17:29:26.251 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 17:29:26.251 [error] <0.294.0> Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-5FtIXQQDICaL65arC3ASCw">>}}
+2020-12-22 17:29:26.252 [error] <0.294.0> Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-qgNJBOs0sPXbhJRoI6jGQw">>}}
+2020-12-22 17:29:26.252 [error] <0.294.0> Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-31OLQvu0VMPjBJn2aFKMFA">>}}
+2020-12-22 17:29:26.253 [error] <0.294.0> Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-owt3xyssdHFF3e4yc6Fjyg">>}}
+2020-12-22 18:09:42.922 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 18:09:42.923 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 18:09:42.935 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 18:10:02.140 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 18:10:02.141 [info] <0.44.0> Application poison started on node nonode@nohost
+2020-12-22 18:16:32.764 [info] <0.44.0> Application logger started on node 'client@etienne-Inspiron-7380'
+2020-12-22 18:16:32.766 [info] <0.44.0> Application poison started on node 'client@etienne-Inspiron-7380'
+2020-12-22 18:16:32.777 [info] <0.44.0> Application calc started on node 'client@etienne-Inspiron-7380'
+2020-12-22 18:16:59.644 [info] <0.44.0> Application logger started on node nonode@nohost
+2020-12-22 18:16:59.645 [info] <0.44.0> Application poison started on node nonode@nohost

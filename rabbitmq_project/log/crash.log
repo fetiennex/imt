@@ -2275,3 +2275,410 @@
     stack_size: 28
     reductions: 692
   neighbours:
+2020-12-22 14:32:18 =ERROR REPORT====
+** Generic server peche_agent terminating 
+** Last message in was {continue,{check_notif,10}}
+** When Server state == #{amount => 8,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},custom_consumer => nil,pid => <0.301.0>},key => <<"peche">>,resupplied => true,resupply_pid => <0.306.0>}
+** Reason for termination ==
+** {function_clause,[{'Elixir.CALC.Agent',handle_continue,[{check_notif,10},#{amount => 8,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},custom_consumer => nil,pid => <0.301.0>},key => <<"peche">>,resupplied => true,resupply_pid => <0.306.0>}],[{file,"lib/agent.ex"},{line,47}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,loop,7,[{file,"gen_server.erl"},{line,431}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-12-22 14:32:18 =ERROR REPORT====
+** Generic server framboise_agent terminating 
+** Last message in was {continue,{check_notif,10}}
+** When Server state == #{amount => 9,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},custom_consumer => nil,pid => <0.301.0>},key => <<"framboise">>,resupplied => true,resupply_pid => <0.306.0>}
+** Reason for termination ==
+** {function_clause,[{'Elixir.CALC.Agent',handle_continue,[{check_notif,10},#{amount => 9,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},custom_consumer => nil,pid => <0.301.0>},key => <<"framboise">>,resupplied => true,resupply_pid => <0.306.0>}],[{file,"lib/agent.ex"},{line,47}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,loop,7,[{file,"gen_server.erl"},{line,431}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-12-22 14:32:18 =ERROR REPORT====
+** Generic server banane_agent terminating 
+** Last message in was {continue,{check_notif,10}}
+** When Server state == #{amount => 9,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},custom_consumer => nil,pid => <0.301.0>},key => <<"banane">>,resupplied => true,resupply_pid => <0.306.0>}
+** Reason for termination ==
+** {function_clause,[{'Elixir.CALC.Agent',handle_continue,[{check_notif,10},#{amount => 9,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},custom_consumer => nil,pid => <0.301.0>},key => <<"banane">>,resupplied => true,resupply_pid => <0.306.0>}],[{file,"lib/agent.ex"},{line,47}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,loop,7,[{file,"gen_server.erl"},{line,431}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-12-22 14:32:18 =ERROR REPORT====
+** Generic server poire_agent terminating 
+** Last message in was {continue,{check_notif,10}}
+** When Server state == #{amount => 9,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},custom_consumer => nil,pid => <0.301.0>},key => <<"poire">>,resupplied => true,resupply_pid => <0.306.0>}
+** Reason for termination ==
+** {function_clause,[{'Elixir.CALC.Agent',handle_continue,[{check_notif,10},#{amount => 9,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},custom_consumer => nil,pid => <0.301.0>},key => <<"poire">>,resupplied => true,resupply_pid => <0.306.0>}],[{file,"lib/agent.ex"},{line,47}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,loop,7,[{file,"gen_server.erl"},{line,431}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-12-22 14:32:18 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.315.0>
+    registered_name: []
+    exception error: {function_clause,[{'Elixir.CALC.Agent',handle_continue,[{check_notif,10},#{amount => 9,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},custom_consumer => nil,pid => <0.301.0>},key => <<"poire">>,resupplied => true,resupply_pid => <0.306.0>}],[{file,"lib/agent.ex"},{line,47}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,loop,7,[{file,"gen_server.erl"},{line,431}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.304.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5809
+  neighbours:
+2020-12-22 14:32:18 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.316.0>
+    registered_name: []
+    exception error: {function_clause,[{'Elixir.CALC.Agent',handle_continue,[{check_notif,10},#{amount => 8,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},custom_consumer => nil,pid => <0.301.0>},key => <<"peche">>,resupplied => true,resupply_pid => <0.306.0>}],[{file,"lib/agent.ex"},{line,47}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,loop,7,[{file,"gen_server.erl"},{line,431}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.304.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 28
+    reductions: 6203
+  neighbours:
+2020-12-22 14:32:18 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.312.0>
+    registered_name: []
+    exception error: {function_clause,[{'Elixir.CALC.Agent',handle_continue,[{check_notif,10},#{amount => 9,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},custom_consumer => nil,pid => <0.301.0>},key => <<"banane">>,resupplied => true,resupply_pid => <0.306.0>}],[{file,"lib/agent.ex"},{line,47}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,loop,7,[{file,"gen_server.erl"},{line,431}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.304.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5831
+  neighbours:
+2020-12-22 14:32:18 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.313.0>
+    registered_name: []
+    exception error: {function_clause,[{'Elixir.CALC.Agent',handle_continue,[{check_notif,10},#{amount => 9,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},custom_consumer => nil,pid => <0.301.0>},key => <<"framboise">>,resupplied => true,resupply_pid => <0.306.0>}],[{file,"lib/agent.ex"},{line,47}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,loop,7,[{file,"gen_server.erl"},{line,431}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.304.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 28
+    reductions: 6256
+  neighbours:
+2020-12-22 14:32:18 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {function_clause,[{'Elixir.CALC.Agent',handle_continue,[{check_notif,10},#{amount => 9,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},custom_consumer => nil,pid => <0.301.0>},key => <<"poire">>,resupplied => true,resupply_pid => <0.306.0>}],[{file,"lib/agent.ex"},{line,47}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,loop,7,[{file,"gen_server.erl"},{line,431}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.315.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"poire">>,10,<0.306.0>,#{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},custom_consumer => nil,pid => <0.301.0>}]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-22 14:32:18 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {function_clause,[{'Elixir.CALC.Agent',handle_continue,[{check_notif,10},#{amount => 8,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},custom_consumer => nil,pid => <0.301.0>},key => <<"peche">>,resupplied => true,resupply_pid => <0.306.0>}],[{file,"lib/agent.ex"},{line,47}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,loop,7,[{file,"gen_server.erl"},{line,431}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.316.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"peche">>,10,<0.306.0>,#{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},custom_consumer => nil,pid => <0.301.0>}]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-22 14:32:18 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {function_clause,[{'Elixir.CALC.Agent',handle_continue,[{check_notif,10},#{amount => 9,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},custom_consumer => nil,pid => <0.301.0>},key => <<"banane">>,resupplied => true,resupply_pid => <0.306.0>}],[{file,"lib/agent.ex"},{line,47}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,loop,7,[{file,"gen_server.erl"},{line,431}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.312.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"banane">>,10,<0.306.0>,#{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},custom_consumer => nil,pid => <0.301.0>}]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-22 14:32:18 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {function_clause,[{'Elixir.CALC.Agent',handle_continue,[{check_notif,10},#{amount => 9,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},custom_consumer => nil,pid => <0.301.0>},key => <<"framboise">>,resupplied => true,resupply_pid => <0.306.0>}],[{file,"lib/agent.ex"},{line,47}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,loop,7,[{file,"gen_server.erl"},{line,431}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.313.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"framboise">>,10,<0.306.0>,#{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},custom_consumer => nil,pid => <0.301.0>}]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-22 14:32:19 =ERROR REPORT====
+** Generic server pomme_agent terminating 
+** Last message in was {continue,{check_notif,10}}
+** When Server state == #{amount => 8,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},custom_consumer => nil,pid => <0.301.0>},key => <<"pomme">>,resupplied => true,resupply_pid => <0.306.0>}
+** Reason for termination ==
+** {function_clause,[{'Elixir.CALC.Agent',handle_continue,[{check_notif,10},#{amount => 8,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},custom_consumer => nil,pid => <0.301.0>},key => <<"pomme">>,resupplied => true,resupply_pid => <0.306.0>}],[{file,"lib/agent.ex"},{line,47}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,loop,7,[{file,"gen_server.erl"},{line,431}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-12-22 14:32:19 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.CALC.Agent:init/1
+    pid: <0.314.0>
+    registered_name: []
+    exception error: {function_clause,[{'Elixir.CALC.Agent',handle_continue,[{check_notif,10},#{amount => 8,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},custom_consumer => nil,pid => <0.301.0>},key => <<"pomme">>,resupplied => true,resupply_pid => <0.306.0>}],[{file,"lib/agent.ex"},{line,47}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,loop,7,[{file,"gen_server.erl"},{line,431}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.CALC.AgentSupervisor','Elixir.CALC.MainSupervisor',<0.287.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.304.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 5909
+  neighbours:
+2020-12-22 14:32:19 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.AgentSupervisor'}
+     Context:    child_terminated
+     Reason:     {function_clause,[{'Elixir.CALC.Agent',handle_continue,[{check_notif,10},#{amount => 8,channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},custom_consumer => nil,pid => <0.301.0>},key => <<"pomme">>,resupplied => true,resupply_pid => <0.306.0>}],[{file,"lib/agent.ex"},{line,47}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,loop,7,[{file,"gen_server.erl"},{line,431}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.314.0>},{id,undefined},{mfargs,{'Elixir.CALC.Agent',start,[<<"pomme">>,10,<0.306.0>,#{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.290.0>},custom_consumer => nil,pid => <0.301.0>}]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2020-12-22 15:24:18 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.ClientSupervisor'}
+     Context:    start_error
+     Reason:     {'EXIT',{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'calc_exchange' in vhost '/'">>}},{gen_server,call,[<0.308.0>,{subscribe,{'basic.consume',0,<<"calc_exchange">>,<<>>,false,true,false,false,[]},<0.310.0>},60000]}}}
+     Offender:   [{pid,undefined},{id,<<"clientTest">>},{mfargs,{'Elixir.CALC.Client',init,[<<"toto">>,[<<"peche.5">>]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-12-22 15:24:18 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.292.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,<<"clientTest">>,{'EXIT',{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'calc_exchange' in vhost '/'">>}},{gen_server,call,[<0.308.0>,{subscribe,{'basic.consume',0,<<"calc_exchange">>,<<>>,false,true,false,false,[]},<0.310.0>},60000]}}}}},{'Elixir.CALC.Application',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.291.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.293.0>,normal}]
+    links: [<0.291.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 221
+  neighbours:
+2020-12-22 15:24:29 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.ClientSupervisor'}
+     Context:    start_error
+     Reason:     {'EXIT',{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'calc_exchange' in vhost '/'">>}},{gen_server,call,[<0.293.0>,{subscribe,{'basic.consume',0,<<"calc_exchange">>,<<>>,false,true,false,false,[]},<0.295.0>},60000]}}}
+     Offender:   [{pid,undefined},{id,<<"clientTest">>},{mfargs,{'Elixir.CALC.Client',init,[<<"toto">>,[<<"peche.5">>]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-12-22 15:24:29 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.277.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,<<"clientTest">>,{'EXIT',{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'calc_exchange' in vhost '/'">>}},{gen_server,call,[<0.293.0>,{subscribe,{'basic.consume',0,<<"calc_exchange">>,<<>>,false,true,false,false,[]},<0.295.0>},60000]}}}}},{'Elixir.CALC.Application',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.276.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.278.0>,normal}]
+    links: [<0.276.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 225
+  neighbours:
+2020-12-22 16:32:55 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.291.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.CALC.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module :ok was given as a child to a supervisor but it does not exist.">>},[{'Elixir.Supervisor',init_child,1,[{file,"lib/supervisor.ex"},{line,631}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1399}]},{'Elixir.Supervisor',init,2,[{file,"lib/supervisor.ex"},{line,617}]},{'Elixir.Supervisor',start_link,2,[{file,"lib/supervisor.ex"},{line,556}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.290.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.292.0>,normal}]
+    links: [<0.290.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 446
+  neighbours:
+2020-12-22 16:36:03 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.291.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.CALC.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module :ok was given as a child to a supervisor but it does not exist.">>},[{'Elixir.Supervisor',init_child,1,[{file,"lib/supervisor.ex"},{line,631}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1399}]},{'Elixir.Supervisor',init,2,[{file,"lib/supervisor.ex"},{line,617}]},{'Elixir.Supervisor',start_link,2,[{file,"lib/supervisor.ex"},{line,556}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.290.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.292.0>,normal}]
+    links: [<0.290.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 446
+  neighbours:
+2020-12-22 16:38:11 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.291.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.CALC.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module :ok was given as a child to a supervisor but it does not exist.">>},[{'Elixir.Supervisor',init_child,1,[{file,"lib/supervisor.ex"},{line,631}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1399}]},{'Elixir.Supervisor',init,2,[{file,"lib/supervisor.ex"},{line,617}]},{'Elixir.Supervisor',start_link,2,[{file,"lib/supervisor.ex"},{line,556}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.290.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.292.0>,normal}]
+    links: [<0.290.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 446
+  neighbours:
+2020-12-22 16:40:26 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:ok/1
+    pid: <0.293.0>
+    registered_name: []
+    exception error: {undef,[{ok,init,[[{strategy,one_for_one},{name,'Elixir.CALC.ClientSupervisor'}]],[]},{supervisor,init,1,[{file,"supervisor.erl"},{line,301}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.292.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.292.0>,normal}]
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 242
+  neighbours:
+2020-12-22 16:40:26 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.291.0>
+    registered_name: []
+    exception exit: {{{undef,[{ok,init,[[{strategy,one_for_one},{name,'Elixir.CALC.ClientSupervisor'}]],[]},{supervisor,init,1,[{file,"supervisor.erl"},{line,301}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.CALC.Application',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.290.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.292.0>,normal}]
+    links: [<0.290.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 462
+  neighbours:
+2020-12-22 16:41:06 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.291.0>
+    registered_name: []
+    exception exit: {{{undef,[{ok,init,[[{strategy,one_for_one},{name,'Elixir.CALC.ClientSupervisor'}]],[]},{supervisor,init,1,[{file,"supervisor.erl"},{line,301}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.CALC.Application',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.290.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.292.0>,normal}]
+    links: [<0.290.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 467
+  neighbours:
+2020-12-22 16:41:06 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:ok/1
+    pid: <0.293.0>
+    registered_name: []
+    exception error: {undef,[{ok,init,[[{strategy,one_for_one},{name,'Elixir.CALC.ClientSupervisor'}]],[]},{supervisor,init,1,[{file,"supervisor.erl"},{line,301}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.292.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.292.0>,normal}]
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 242
+  neighbours:
+2020-12-22 16:45:16 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:ok/1
+    pid: <0.293.0>
+    registered_name: []
+    exception error: {undef,[{ok,init,[[{strategy,one_for_one},{name,'Elixir.CALC.ClientSupervisor'}]],[]},{supervisor,init,1,[{file,"supervisor.erl"},{line,301}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.292.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.292.0>,normal}]
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 242
+  neighbours:
+2020-12-22 16:45:16 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.291.0>
+    registered_name: []
+    exception exit: {{{undef,[{ok,init,[[{strategy,one_for_one},{name,'Elixir.CALC.ClientSupervisor'}]],[]},{supervisor,init,1,[{file,"supervisor.erl"},{line,301}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.CALC.Application',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.290.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.292.0>,normal}]
+    links: [<0.290.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 339
+  neighbours:
+2020-12-22 17:17:08 =ERROR REPORT====
+Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-e7mRKZCZ5lzAvRQJ3VS15Q">>}}
+2020-12-22 17:17:08 =ERROR REPORT====
+Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-ZDWJ4j_Y1F_jNcpVnKPJ7Q">>}}
+2020-12-22 17:17:08 =ERROR REPORT====
+Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-NULE9VqCrk0lObFBA0H2hg">>}}
+2020-12-22 17:17:08 =ERROR REPORT====
+Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-7ukL10Qrmn10b-78j9w4Tg">>}}
+2020-12-22 17:17:08 =ERROR REPORT====
+Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-VWRuHMr5N0xLCjDOjzCJMw">>}}
+2020-12-22 17:25:43 =ERROR REPORT====
+Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-rgcjzJ6QmtCIuKnKPPXEWw">>}}
+2020-12-22 17:25:43 =ERROR REPORT====
+Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-LzP_YmXhAg914_QIQZnM2Q">>}}
+2020-12-22 17:25:43 =ERROR REPORT====
+Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-lrWMukaTLbnkCM6dspy8hQ">>}}
+2020-12-22 17:25:43 =ERROR REPORT====
+Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-H-fuq4ATEAldHhqUZ2pQuQ">>}}
+2020-12-22 17:25:43 =ERROR REPORT====
+Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-w1x7xTBhqlH2u1WCpwxbYw">>}}
+2020-12-22 17:27:20 =ERROR REPORT====
+Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-n8onPFjX_NV93E1nrL1SfA">>}}
+2020-12-22 17:27:20 =ERROR REPORT====
+Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-x8BKSY2A7FPTV5HTggl7LQ">>}}
+2020-12-22 17:27:20 =ERROR REPORT====
+Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-fpF5-yZftk1edZ0V2qgrZg">>}}
+2020-12-22 17:27:20 =ERROR REPORT====
+Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-ZIDiIC3tlyDcHi4MtJsJkw">>}}
+2020-12-22 17:27:20 =ERROR REPORT====
+Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-v83aa3mCvnRiv7F2uEZ14Q">>}}
+2020-12-22 17:28:26 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.CALC.ClientSupervisor'}
+     Context:    start_error
+     Reason:     {'EXIT',{{badmatch,<0.311.0>},[{'Elixir.CALC.Client',init,2,[{file,"lib/client.ex"},{line,15}]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,385}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,371}]},{supervisor,'-start_children/2-fun-0-',3,[{file,"supervisor.erl"},{line,355}]},{supervisor,children_map,4,[{file,"supervisor.erl"},{line,1171}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,321}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]}]}}
+     Offender:   [{pid,undefined},{id,<<"1">>},{mfargs,{'Elixir.CALC.Client',init,[<<"client_1">>,[<<"framboise.0">>]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-12-22 17:28:26 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.292.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,<<"1">>,{'EXIT',{{badmatch,<0.311.0>},[{'Elixir.CALC.Client',init,2,[{file,"lib/client.ex"},{line,15}]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,385}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,371}]},{supervisor,'-start_children/2-fun-0-',3,[{file,"supervisor.erl"},{line,355}]},{supervisor,children_map,4,[{file,"supervisor.erl"},{line,1171}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,321}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]}]}}}},{'Elixir.CALC.Application',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.291.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.293.0>,normal}]
+    links: [<0.291.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 254
+  neighbours:
+2020-12-22 17:29:26 =ERROR REPORT====
+Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-3t75e0uGpHbL7fLwMeKclg">>}}
+2020-12-22 17:29:26 =ERROR REPORT====
+Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-5FtIXQQDICaL65arC3ASCw">>}}
+2020-12-22 17:29:26 =ERROR REPORT====
+Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-qgNJBOs0sPXbhJRoI6jGQw">>}}
+2020-12-22 17:29:26 =ERROR REPORT====
+Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-31OLQvu0VMPjBJn2aFKMFA">>}}
+2020-12-22 17:29:26 =ERROR REPORT====
+Supervisor received unexpected message: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-owt3xyssdHFF3e4yc6Fjyg">>}}
